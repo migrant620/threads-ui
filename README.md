@@ -85,6 +85,10 @@ npm run build:web
 
 The static output is written to `dist/`. Serve that directory over HTTP or HTTPS; opening `index.html` directly as a local file is not supported.
 
+## Demo build
+
+The published demo at <https://threads-ui.edgeone.cool> is built from this repository. It was last rebuilt and redeployed on 2026-09-25 (EdgeOne deployment `dpnz45ubk4ek`, source revision `1dae08b4`).
+
 ## Scope and limitations
 
 - **First batch of screens.** This edition covers the feed, a post detail with its reply tree, the composer in three states plus its discard-confirmation card, search landing and results, the activity categories, the profile and its Threads, Replies and Reposts tabs, the Messages inbox, and the login screen. Dark theme, the image viewer, repost and quote sheets, the full audience selector, edit-profile and settings are not built.
