@@ -67,7 +67,7 @@ Data is static and local to the page; reloading returns you to the top of the fe
 
 ## Run locally
 
-Use Node.js 18 or newer, with npm.
+Use Node.js 22.13 or newer in the Node.js 22 release line, with npm.
 
 ```bash
 npm ci --ignore-scripts
@@ -87,7 +87,7 @@ The static output is written to `dist/`. Serve that directory over HTTP or HTTPS
 
 ## Demo build
 
-The published demo at <https://threads-ui.edgeone.cool> is built from this repository. It was last rebuilt and redeployed on 2026-09-25 (EdgeOne deployment `dpnz45ubk4ek`, source revision `1dae08b4`).
+The published demo at <https://threads-ui.edgeone.cool> is built from this repository. It was last rebuilt and redeployed on 2026-09-27 (EdgeOne deployment `dpy3ox15e1gk`, source revision `8d8080a8`).
 
 ## Scope and limitations
 
