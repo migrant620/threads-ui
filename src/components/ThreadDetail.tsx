@@ -219,13 +219,14 @@ export const ThreadDetail: React.FC<Props> = ({ now, root, replies, liked, onTog
       </Text>
     </Pressable>
     <Pressable accessibilityRole="button" accessibilityLabel="Gallery" style={[abs(T3.bar.gallery), styles.barKey]}>
-      <ImageIcon size={22}/>
+      
+      <ImageIcon size={27.5}/>
     </Pressable>
     <Pressable accessibilityRole="button" accessibilityLabel="GIF" style={[abs(T3.bar.gif), styles.barKey]}>
-      <GifIcon size={22}/>
+      <GifIcon size={27.5}/>
     </Pressable>
     <Pressable accessibilityRole="button" accessibilityLabel="Add attachment" style={[abs(T3.bar.attach), styles.barKey]}>
-      <ExpandIcon size={22}/>
+      <ExpandIcon size={27.5}/>
     </Pressable>
   </View>);
 const HandleKey: React.FC<{

@@ -133,6 +133,7 @@ export const icons = {
     nav: 24,
     topBar: 24,
     more: 16,
+    moreTop: 24,
     verified: 16,
     action: 20,
 };

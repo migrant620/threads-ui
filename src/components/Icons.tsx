@@ -81,6 +81,37 @@ export const MoreIcon: React.FC<IconProps & {
     <Circle cx="12" cy="12" r={dotRadius} fill={color}/>
     <Circle cx="20" cy="12" r={dotRadius} fill={color}/>
   </Svg>);
+export const CircledMoreIcon: React.FC<IconProps & {
+    dotRadius?: number;
+}> = ({ size = 24, color = colors.ink, strokeWidth = 2.1, dotRadius = 1.5, }) => (<Svg {...base(size, color, strokeWidth)}>
+    <Circle cx="12" cy="12" r="9.9"/>
+    <Circle cx="7.8" cy="12" r={dotRadius} fill={color} stroke="none"/>
+    <Circle cx="12" cy="12" r={dotRadius} fill={color} stroke="none"/>
+    <Circle cx="16.2" cy="12" r={dotRadius} fill={color} stroke="none"/>
+  </Svg>);
+export const StickerIcon: React.FC<IconProps> = ({ size = 32, color = colors.ink, strokeWidth = 2.1 }) => (<Svg {...base(size, color, strokeWidth)}>
+    
+    <Path d="M9 4.2h4.3l6.5 6.5v6.1a3.2 3.2 0 0 1-3.2 3.2H9a3.2 3.2 0 0 1-3.2-3.2V7.4A3.2 3.2 0 0 1 9 4.2Z"/>
+    
+    <Path d="M13.3 4.3c0 4.4 2.4 6.7 6.6 6.7"/>
+    
+    <Circle cx="9.5" cy="11.4" r="1" fill={color} stroke="none"/>
+    <Path d="M8.7 14.3c1.2 2.8 5 2.7 6.6-.6"/>
+  </Svg>);
+export const MusicIcon: React.FC<IconProps> = ({ size = 26, color = colors.ink, strokeWidth = 2 }) => (<Svg {...base(size, color, strokeWidth)}>
+    <Circle cx="6.8" cy="18.6" r="2.3"/>
+    <Circle cx="17.6" cy="16.8" r="2.3"/>
+    <Line x1="9.1" y1="18.6" x2="9.1" y2="5.6"/>
+    <Line x1="19.9" y1="16.8" x2="19.9" y2="3.8"/>
+    <Path d="M9.1 5.6l10.8-1.8v3.2L9.1 8.8z" fill={color} stroke="none"/>
+  </Svg>);
+export const DraftsIcon: React.FC<IconProps> = ({ size = 24, color = colors.ink, strokeWidth = 2.1 }) => (<Svg {...base(size, color, strokeWidth)}>
+    <Path d="M9.4 2.9h3.9l7.3 7.3v6.1a3.4 3.4 0 0 1-3.4 3.4H9.4a3.6 3.6 0 0 1-3.6-3.6V6.5a3.6 3.6 0 0 1 3.6-3.6Z"/>
+    <Path d="M13.3 3c0 5 2.5 7.4 7.3 7.4"/>
+    <Line x1="9" y1="12.3" x2="11.6" y2="12.3" strokeWidth={2.4}/>
+    <Line x1="9" y1="15.5" x2="13.9" y2="15.5" strokeWidth={2.4}/>
+    <Line x1="9" y1="18.7" x2="12.7" y2="18.7" strokeWidth={2.4}/>
+  </Svg>);
 export const BackIcon: React.FC<IconProps> = ({ size = 24, color = colors.ink, strokeWidth = 2.3 }) => (<Svg {...base(size, color, strokeWidth)}>
     <Path d="M20 12H4.6"/>
     <Path d="M11 5.4 4 12l7 6.6"/>

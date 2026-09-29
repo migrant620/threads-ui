@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { Avatar, TopBar } from './Chrome';
-import { ActivityIcon, ChevronRightIcon, CloseIcon, GifIcon, ImageIcon, MoreIcon, PlusIcon } from './Icons';
+import { ChevronRightIcon, CircledMoreIcon, CloseIcon, DraftsIcon, GifIcon, ImageIcon, MusicIcon, StickerIcon } from './Icons';
 import { account } from '../data';
 import { colors, connector, frame, radius, space, type, weight } from '../tokens';
 type Props = {
@@ -137,11 +137,11 @@ const AttachmentRow: React.FC<{
     top: number;
 }> = ({ top }) => (<View style={{ position: 'absolute', left: 0, top, width: frame.width, height: 48 }}>
     {[
-        { left: 45.1, w: 40.4, h: 40.8, label: 'Add photos and videos from your camera roll', node: <ImageIcon size={22}/> },
-        { left: 85.5, w: 40.4, h: 40.8, label: 'Add a GIF', node: <GifIcon size={22}/> },
-        { left: 125.9, w: 40.4, h: 48.0, label: 'Add a sticker', node: <PlusIcon size={22}/> },
-        { left: 166.3, w: 40.4, h: 48.0, label: 'Add music to your posts', node: <ActivityIcon size={22}/> },
-        { left: 206.7, w: 48.0, h: 48.0, label: 'See more options', node: <MoreIcon size={20}/> },
+        { left: 45.1, w: 40.4, h: 40.8, label: 'Add photos and videos from your camera roll', node: <ImageIcon size={27.5} color={colors.overflowInk}/> },
+        { left: 85.5, w: 40.4, h: 40.8, label: 'Add a GIF', node: <GifIcon size={27.5} color={colors.overflowInk}/> },
+        { left: 125.9, w: 40.4, h: 48.0, label: 'Add a sticker', node: <StickerIcon size={30} color={colors.overflowInk}/> },
+        { left: 166.3, w: 40.4, h: 48.0, label: 'Add music to your posts', node: <MusicIcon size={26} color={colors.overflowInk}/> },
+        { left: 206.7, w: 48.0, h: 48.0, label: 'See more options', node: <CircledMoreIcon size={24} color={colors.overflowInk}/> },
     ].map((k) => (<Pressable key={k.label} accessibilityRole="button" accessibilityLabel={k.label} style={[styles.attachKey, { left: k.left, width: k.w, height: k.h }]}>
         {k.node}
       </Pressable>))}

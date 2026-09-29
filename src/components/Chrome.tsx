@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import { ActivityIcon, BackIcon, BellIcon, ChevronDownIcon, ChevronRightIcon, CloseIcon, FiltersIcon, GlobeIcon, HeartIcon, HomeIcon, ImageIcon, InstagramMark, MenuIcon, MessagesIcon, MoreIcon, PlusIcon, ProfileIcon, ReplyIcon, RepostIcon, SettingsIcon, InsightsIcon, WordmarkLockup, SearchIcon, ShareIcon, VerifiedIcon, } from './Icons';
+import { ActivityIcon, BackIcon, BellIcon, ChevronDownIcon, ChevronRightIcon, CircledMoreIcon, CloseIcon, DraftsIcon, FiltersIcon, GlobeIcon, HeartIcon, HomeIcon, InstagramMark, MenuIcon, MessagesIcon, MoreIcon, PlusIcon, ProfileIcon, ReplyIcon, RepostIcon, SettingsIcon, InsightsIcon, WordmarkLockup, SearchIcon, ShareIcon, VerifiedIcon, } from './Icons';
 import { actions, colors, frame, icons as iconSize, radius, rhythm, space, tracking, type, weight, type Weight } from '../tokens';
 const SEP = '\ufffd';
 export const StatusSpacer: React.FC<{
@@ -105,9 +105,9 @@ export const TopBar: React.FC<TopBarProps> = ({ left = 'menu', onLeft, wordmark,
         return (<Pressable key={`${spec.key}-${i}`} accessibilityRole="button" accessibilityLabel={label} onPress={() => onRight?.(spec.key)} style={[styles.topKey, { left: spec.left, width: spec.width ?? 48, top: spec.top ?? 4 }]}>
           {spec.key === 'search' ? <SearchIcon size={iconSize.topBar} color={colors.searchInk}/> : null}
           {spec.key === 'bell' ? <BellIcon size={iconSize.topBar}/> : null}
-          {spec.key === 'more' ? <MoreIcon size={iconSize.more}/> : null}
+          {spec.key === 'more' ? <CircledMoreIcon size={iconSize.moreTop}/> : null}
           {spec.key === 'instagram' ? <InstagramMark size={iconSize.topBar} color={colors.ink}/> : null}
-          {spec.key === 'drafts' ? <ImageIcon size={22}/> : null}
+          {spec.key === 'drafts' ? <DraftsIcon size={22}/> : null}
           {spec.key === 'settings' ? <SettingsIcon size={iconSize.topBar}/> : null}
           {spec.key === 'insights' ? <InsightsIcon size={iconSize.topBar}/> : null}
           {spec.key === 'filters' ? <FiltersIcon size={iconSize.topBar} color={colors.menuInk}/> : null}
