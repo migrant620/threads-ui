@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Threads UI Prototype",
+    "slug": "threads-ui",
+    "scheme": "threads-ui",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "platforms": [
+      "web"
+    ]
+  }
+}
