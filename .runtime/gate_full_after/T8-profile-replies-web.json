@@ -1,0 +1,386 @@
+{
+ "state": "T8-profile-replies",
+ "served_bundle": "f10c71cb994d0f25191bced6c7e9209f",
+ "shot": "T8-profile-replies-web.png",
+ "shot_sha256": "7ed2f4b20b9fa2c2bc59ca0b99b9179f4697bd671a6772b4a6a8db492caff497",
+ "nodes": [
+  {
+   "label": "M620",
+   "x": 16,
+   "y": 70.6,
+   "w": 62.5,
+   "h": 28
+  },
+  {
+   "label": "m620ui",
+   "x": 16,
+   "y": 101.6,
+   "w": 52.8,
+   "h": 19
+  },
+  {
+   "label": "+ Add interests",
+   "x": 29.2,
+   "y": 137.4,
+   "w": 86.6,
+   "h": 16
+  },
+  {
+   "label": "0 followers",
+   "x": 16,
+   "y": 176.1,
+   "w": 73.3,
+   "h": 19
+  },
+  {
+   "label": "Edit profile",
+   "x": 65.7,
+   "y": 221.2,
+   "w": 75.8,
+   "h": 19
+  },
+  {
+   "label": "Share profile",
+   "x": 245.8,
+   "y": 221.2,
+   "w": 86.6,
+   "h": 19
+  },
+  {
+   "label": "People you may know",
+   "x": 16,
+   "y": 274.7,
+   "w": 148.0,
+   "h": 19
+  },
+  {
+   "label": "harborline",
+   "x": 43.7,
+   "y": 409.5,
+   "w": 71.0,
+   "h": 19
+  },
+  {
+   "label": "harborline",
+   "x": 54.9,
+   "y": 430.9,
+   "w": 64.0,
+   "h": 18
+  },
+  {
+   "label": "Follow",
+   "x": 71.6,
+   "y": 471.5,
+   "w": 44.9,
+   "h": 19
+  },
+  {
+   "label": "quietmiles",
+   "x": 242.7,
+   "y": 409.5,
+   "w": 72.4,
+   "h": 19
+  },
+  {
+   "label": "quietmiles",
+   "x": 256.9,
+   "y": 430.9,
+   "w": 65.3,
+   "h": 18
+  },
+  {
+   "label": "Follow",
+   "x": 235.7,
+   "y": 471.5,
+   "w": 44.9,
+   "h": 19
+  },
+  {
+   "label": "cafehours",
+   "x": 375.9,
+   "y": 409.5,
+   "w": 68.5,
+   "h": 19
+  },
+  {
+   "label": "Follow",
+   "x": 353.2,
+   "y": 471.5,
+   "w": 44.9,
+   "h": 19
+  },
+  {
+   "label": "Threads",
+   "x": 20.7,
+   "y": 544.9,
+   "w": 57.3,
+   "h": 19
+  },
+  {
+   "label": "Replies",
+   "x": 121.5,
+   "y": 544.4,
+   "w": 53.4,
+   "h": 20
+  },
+  {
+   "label": "Media",
+   "x": 224.2,
+   "y": 544.9,
+   "w": 44.5,
+   "h": 19
+  },
+  {
+   "label": "Reposts",
+   "x": 315.5,
+   "y": 544.9,
+   "w": 56.9,
+   "h": 19
+  },
+  {
+   "label": "Nothing you've replied to yet.",
+   "x": 67.3,
+   "y": 639.7,
+   "w": 219.1,
+   "h": 20
+  },
+  {
+   "label": "[CTL] ",
+   "x": 0,
+   "y": 0,
+   "w": 393,
+   "h": 56
+  },
+  {
+   "label": "[CTL] Insights",
+   "x": 4,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Search",
+   "x": 244.9,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Instagram",
+   "x": 292.9,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Settings",
+   "x": 341.0,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Profile picture",
+   "x": 312.9,
+   "y": 56.0,
+   "w": 64.0,
+   "h": 64.0
+  },
+  {
+   "label": "[CTL] Add interests",
+   "x": 284.2,
+   "y": 79.7,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Add interests",
+   "x": 16,
+   "y": 129.4,
+   "w": 113,
+   "h": 32
+  },
+  {
+   "label": "[CTL] Edit profile",
+   "x": 16,
+   "y": 214.7,
+   "w": 175.3,
+   "h": 32
+  },
+  {
+   "label": "[CTL] Share profile",
+   "x": 201.5,
+   "y": 214.7,
+   "w": 175.3,
+   "h": 32
+  },
+  {
+   "label": "[CTL] Profile picture.",
+   "x": 54.2,
+   "y": 322.4,
+   "w": 80,
+   "h": 80
+  },
+  {
+   "label": "[CTL] Profile picture verified badge.",
+   "x": 56.4,
+   "y": 380.2,
+   "w": 20,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Verified",
+   "x": 58.4,
+   "y": 382.2,
+   "w": 16,
+   "h": 16
+  },
+  {
+   "label": "[CTL] Follow",
+   "x": 30.2,
+   "y": 457.0,
+   "w": 127.7,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Dismiss action to hide user.",
+   "x": 131,
+   "y": 301.3,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Profile picture.",
+   "x": 218.3,
+   "y": 322.4,
+   "w": 80,
+   "h": 80
+  },
+  {
+   "label": "[CTL] Profile picture verified badge.",
+   "x": 220.5,
+   "y": 380.2,
+   "w": 20,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Verified",
+   "x": 222.5,
+   "y": 382.2,
+   "w": 16,
+   "h": 16
+  },
+  {
+   "label": "[CTL] Follow",
+   "x": 194.3,
+   "y": 457.0,
+   "w": 127.7,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Dismiss action to hide user.",
+   "x": 295.1,
+   "y": 301.3,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Profile picture.",
+   "x": 382.4,
+   "y": 322.4,
+   "w": 80,
+   "h": 80
+  },
+  {
+   "label": "[CTL] Profile picture verified badge.",
+   "x": 384.6,
+   "y": 380.2,
+   "w": 20,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Verified",
+   "x": 386.6,
+   "y": 382.2,
+   "w": 16,
+   "h": 16
+  },
+  {
+   "label": "[CTL] Follow",
+   "x": 358.4,
+   "y": 457.0,
+   "w": 34.6,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Threads",
+   "x": 20.7,
+   "y": 544.4,
+   "w": 60,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Replies",
+   "x": 121.5,
+   "y": 544.4,
+   "w": 54.5,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Media",
+   "x": 224.2,
+   "y": 544.4,
+   "w": 46,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Reposts",
+   "x": 315.5,
+   "y": 544.4,
+   "w": 59.5,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Feed",
+   "x": 40.4,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Messages",
+   "x": 112.8,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Create",
+   "x": 184.9,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Activity",
+   "x": 256.9,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Profile",
+   "x": 329,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Show login screen",
+   "x": 365,
+   "y": 749,
+   "w": 22,
+   "h": 22
+  }
+ ]
+}

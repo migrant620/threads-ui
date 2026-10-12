@@ -1,0 +1,240 @@
+[
+ {
+  "label": "Search",
+  "x": 60,
+  "y": 12.5,
+  "w": 101.9,
+  "h": 38
+ },
+ {
+  "label": "Trending now",
+  "x": 16,
+  "y": 119.1,
+  "w": 123.0,
+  "h": 23
+ },
+ {
+  "label": "What people are saying, summarized by AI �",
+  "x": 16,
+  "y": 145.1,
+  "w": 277.6,
+  "h": 16
+ },
+ {
+  "label": "Harbour ferry timetable",
+  "x": 16,
+  "y": 177.7,
+  "w": 166.5,
+  "h": 19
+ },
+ {
+  "label": "Winter timetable starts Monday, adding two morning sailings and a later last boat.",
+  "x": 16,
+  "y": 199.1,
+  "w": 303.6,
+  "h": 37.3
+ },
+ {
+  "label": "Cliff path repairs finish",
+  "x": 16,
+  "y": 264.1,
+  "w": 158.8,
+  "h": 19
+ },
+ {
+  "label": "The western steps reopened after six weeks of work on the handrail and the upper gate.",
+  "x": 16,
+  "y": 285.5,
+  "w": 356.2,
+  "h": 37.3
+ },
+ {
+  "label": "Night market returns",
+  "x": 16,
+  "y": 350.5,
+  "w": 146.8,
+  "h": 19
+ },
+ {
+  "label": "Forty stalls return to the old depot yard on Friday, with the same late closing time.",
+  "x": 16,
+  "y": 371.9,
+  "w": 289.1,
+  "h": 37.3
+ },
+ {
+  "label": "Depot line reopens",
+  "x": 16,
+  "y": 436.9,
+  "w": 133.3,
+  "h": 19
+ },
+ {
+  "label": "Trains run again between the two yards after the signal cabinet was replaced overnight.",
+  "x": 16,
+  "y": 458.3,
+  "w": 331.4,
+  "h": 37.3
+ },
+ {
+  "label": "Lantern festival lineup",
+  "x": 16,
+  "y": 523.3,
+  "w": 155.9,
+  "h": 19
+ },
+ {
+  "label": "The full programme is out, with the river walk closing an hour before the first set.",
+  "x": 16,
+  "y": 544.7,
+  "w": 275.5,
+  "h": 37.3
+ },
+ {
+  "label": "Show more",
+  "x": 16,
+  "y": 601.2,
+  "w": 79.7,
+  "h": 19
+ },
+ {
+  "label": "Follow suggestions",
+  "x": 16,
+  "y": 655.1,
+  "w": 131.4,
+  "h": 19
+ },
+ {
+  "label": "harborline",
+  "x": 68,
+  "y": 688.6,
+  "w": 73.0,
+  "h": 19
+ },
+ {
+  "label": "Coastal path notes and trail surveys.",
+  "x": 68,
+  "y": 706.3,
+  "w": 245.5,
+  "h": 19
+ },
+ {
+  "label": "Follow",
+  "x": 305.9,
+  "y": 694.1,
+  "w": 46.1,
+  "h": 19
+ },
+ {
+  "label": "Search",
+  "x": 50.9,
+  "y": 70.6,
+  "w": 52.8,
+  "h": 19.6
+ },
+ {
+  "label": "[CTL] Back",
+  "x": 0,
+  "y": 8.4,
+  "w": 60,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 322.8,
+  "y": 176.5,
+  "w": 54.2,
+  "h": 64
+ },
+ {
+  "label": "[CTL] ",
+  "x": 322.8,
+  "y": 349.3,
+  "w": 54.2,
+  "h": 64
+ },
+ {
+  "label": "[CTL] ",
+  "x": 322.8,
+  "y": 522.1,
+  "w": 54.2,
+  "h": 64
+ },
+ {
+  "label": "[CTL] Show more",
+  "x": 16,
+  "y": 602.2,
+  "w": 79.7,
+  "h": 17.5
+ },
+ {
+  "label": "[CTL] harborline profile photo",
+  "x": 16,
+  "y": 691,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Verified",
+  "x": 168.8,
+  "y": 691.4,
+  "w": 14.2,
+  "h": 14.2
+ },
+ {
+  "label": "[CTL] Follow",
+  "x": 280.9,
+  "y": 685.2,
+  "w": 96.1,
+  "h": 36.8
+ },
+ {
+  "label": "[CTL] Search field",
+  "x": 50.9,
+  "y": 70.6,
+  "w": 52.8,
+  "h": 19.6
+ },
+ {
+  "label": "[CTL] Feed",
+  "x": 40.4,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Messages",
+  "x": 112.8,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Create",
+  "x": 184.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Activity",
+  "x": 256.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Profile",
+  "x": 329,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Show login screen",
+  "x": 365,
+  "y": 749,
+  "w": 22,
+  "h": 22
+ }
+]

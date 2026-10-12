@@ -1,0 +1,134 @@
+{
+ "state": "T9-messages",
+ "served_bundle": "f10c71cb994d0f25191bced6c7e9209f",
+ "shot": "T9-messages-web.png",
+ "shot_sha256": "49a28b535ad3aed9d002388f791081acd1203b660206f60a737f06185cd37f7a",
+ "nodes": [
+  {
+   "label": "Messages",
+   "x": 16,
+   "y": 8.5,
+   "w": 144.1,
+   "h": 39
+  },
+  {
+   "label": "Inbox",
+   "x": 86.2,
+   "y": 117.3,
+   "w": 39.0,
+   "h": 19
+  },
+  {
+   "label": "Requests",
+   "x": 164.8,
+   "y": 117.3,
+   "w": 64.9,
+   "h": 19
+  },
+  {
+   "label": "Everything lands here",
+   "x": 74.6,
+   "y": 412,
+   "w": 239.5,
+   "h": 29
+  },
+  {
+   "label": "Turn on alerts so your replies land here.",
+   "x": 61.9,
+   "y": 448.0,
+   "w": 264.7,
+   "h": 19
+  },
+  {
+   "label": "Enable notifications",
+   "x": 127.6,
+   "y": 519,
+   "w": 138.2,
+   "h": 19
+  },
+  {
+   "label": "[CTL] ",
+   "x": 159.4,
+   "y": 4.4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] New message",
+   "x": 341,
+   "y": 4.4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] ",
+   "x": 0,
+   "y": 54.2,
+   "w": 393,
+   "h": 48
+  },
+  {
+   "label": "[CTL] ",
+   "x": 14.2,
+   "y": 103,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Inbox filters",
+   "x": 14.2,
+   "y": 110.3,
+   "w": 48,
+   "h": 33.5
+  },
+  {
+   "label": "[CTL] Enable notifications",
+   "x": 109.2,
+   "y": 512.5,
+   "w": 175,
+   "h": 32.5
+  },
+  {
+   "label": "[CTL] Feed",
+   "x": 40.4,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Messages",
+   "x": 112.8,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Create",
+   "x": 184.9,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Activity",
+   "x": 256.9,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Profile",
+   "x": 329,
+   "y": 738,
+   "w": 24,
+   "h": 24
+  },
+  {
+   "label": "[CTL] Show login screen",
+   "x": 365,
+   "y": 749,
+   "w": 22,
+   "h": 22
+  }
+ ]
+}

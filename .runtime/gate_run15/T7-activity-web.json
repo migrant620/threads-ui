@@ -1,0 +1,268 @@
+[
+ {
+  "label": "Activity",
+  "x": 16,
+  "y": 14.5,
+  "w": 104.4,
+  "h": 35
+ },
+ {
+  "label": "All",
+  "x": 30.2,
+  "y": 70.8,
+  "w": 18.2,
+  "h": 19
+ },
+ {
+  "label": "Follows",
+  "x": 87.3,
+  "y": 70.8,
+  "w": 52.0,
+  "h": 19
+ },
+ {
+  "label": "Conversations",
+  "x": 178.3,
+  "y": 70.8,
+  "w": 99.4,
+  "h": 19
+ },
+ {
+  "label": "Mentions",
+  "x": 316.4,
+  "y": 70.8,
+  "w": 64.8,
+  "h": 19
+ },
+ {
+  "label": "New",
+  "x": 16,
+  "y": 114.7,
+  "w": 30.8,
+  "h": 19
+ },
+ {
+  "label": "We updated your settings after 1 account was added to the same Accounts Center. 7h",
+  "x": 68,
+  "y": 153.2,
+  "w": 300.5,
+  "h": 38.3
+ },
+ {
+  "label": "threads",
+  "x": 68,
+  "y": 215.2,
+  "w": 53.0,
+  "h": 19
+ },
+ {
+  "label": "7h",
+  "x": 141.3,
+  "y": 215.2,
+  "w": 16.6,
+  "h": 19
+ },
+ {
+  "label": "Review your settings to control how much political content you want suggested to you.",
+  "x": 68,
+  "y": 239.5,
+  "w": 301.3,
+  "h": 38.3
+ },
+ {
+  "label": "threads",
+  "x": 68,
+  "y": 302.9,
+  "w": 53.0,
+  "h": 19
+ },
+ {
+  "label": "7h",
+  "x": 141.3,
+  "y": 302.9,
+  "w": 16.6,
+  "h": 19
+ },
+ {
+  "label": "Your profile is public. You can manage your privacy in settings anytime.",
+  "x": 68,
+  "y": 327.2,
+  "w": 295.8,
+  "h": 38.3
+ },
+ {
+  "label": "Your notifications are off.",
+  "x": 97.2,
+  "y": 690.0,
+  "w": 145.7,
+  "h": 16
+ },
+ {
+  "label": "Turn on",
+  "x": 248.4,
+  "y": 689.4,
+  "w": 46.8,
+  "h": 16
+ },
+ {
+  "label": "[CTL] Enable notifications",
+  "x": 121.2,
+  "y": 8,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] All",
+  "x": 14.2,
+  "y": 64,
+  "w": 50.2,
+  "h": 33.2
+ },
+ {
+  "label": "[CTL] Follows",
+  "x": 71,
+  "y": 64,
+  "w": 84.6,
+  "h": 33.2
+ },
+ {
+  "label": "[CTL] Conversations",
+  "x": 162.5,
+  "y": 64,
+  "w": 131,
+  "h": 33.2
+ },
+ {
+  "label": "[CTL] Mentions",
+  "x": 300.4,
+  "y": 64,
+  "w": 96.7,
+  "h": 33.2
+ },
+ {
+  "label": "[CTL] ",
+  "x": 10.2,
+  "y": 210.3,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] threads 7h",
+  "x": 68,
+  "y": 215.1,
+  "w": 89.9,
+  "h": 19
+ },
+ {
+  "label": "[CTL] Verified",
+  "x": 121.9,
+  "y": 216.2,
+  "w": 14.9,
+  "h": 14.9
+ },
+ {
+  "label": "[CTL] ",
+  "x": 345,
+  "y": 200.1,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] More options",
+  "x": 361,
+  "y": 216.1,
+  "w": 16,
+  "h": 16
+ },
+ {
+  "label": "[CTL] ",
+  "x": 10.2,
+  "y": 298,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] threads 7h",
+  "x": 68,
+  "y": 302.8,
+  "w": 89.9,
+  "h": 19
+ },
+ {
+  "label": "[CTL] Verified",
+  "x": 121.9,
+  "y": 303.9,
+  "w": 14.9,
+  "h": 14.9
+ },
+ {
+  "label": "[CTL] ",
+  "x": 345,
+  "y": 287.8,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] More options",
+  "x": 361,
+  "y": 303.8,
+  "w": 16,
+  "h": 16
+ },
+ {
+  "label": "[CTL] Turn on",
+  "x": 247.8,
+  "y": 674.3,
+  "w": 48,
+  "h": 47.7
+ },
+ {
+  "label": "[CTL] ",
+  "x": 341,
+  "y": 673.9,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Feed",
+  "x": 40.4,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Messages",
+  "x": 112.8,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Create",
+  "x": 184.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Activity",
+  "x": 256.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Profile",
+  "x": 329,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Show login screen",
+  "x": 365,
+  "y": 749,
+  "w": 22,
+  "h": 22
+ }
+]

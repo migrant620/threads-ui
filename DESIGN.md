@@ -90,7 +90,8 @@ rounded:
 
 ## Overview
 
-Designed for a 393 × 777 dp phone frame, English, light theme, default font scale. This document covers the first release batch only — the home feed, a post detail with its
+Based on Threads for Android, English, light theme, default font scale, on a 393 × 777 dp phone
+frame. This document covers the first release batch only — the home feed, a post detail with its
 reply tree, the composer (empty, typed and multi-segment), search landing and results, the activity
 categories, the profile and its Replies tab, the Messages inbox, and the login screen. It is not a
 complete system for every Threads screen.
@@ -120,12 +121,14 @@ text, and the composer's "Add to thread" before a segment is worth adding. Tinte
 
 ## Typography
 
-The interface face is **Instrument Sans**, a variable font, standing in for the app's proprietary
-face because it holds the same line widths at the same sizes: no string in the first batch needs
-size compensation to fit. Numeric strings use **Roboto Medium**.
+The interface face is **Instrument Sans**, a variable font, chosen to replace the proprietary face
+the original ships with because it holds the same line widths at the same sizes: across the whole
+first batch, no string needed size compensation to fit, and the mean advance-width difference is
+under 1.5%. Numeric strings keep **Roboto Medium**, which is the fallback the original uses for
+numbers too.
 
-Body copy is 15 dp with a 18.3 dp line and −0.2 dp tracking — the line is tightened, and 15 dp is
-wide enough that it shows. The search field and the profile's own name step rise to 16 and
+Body copy is 15 dp with a 18.3 dp line and −0.2 dp tracking — the original's line is tightened, and
+15 dp is wide enough that it shows. The search field and the profile's own name step rise to 16 and
 24 dp; the detail header's "Thread" sits at 17 dp; the smallest captions, tab labels and view counts,
 are 13 dp.
 
@@ -136,7 +139,7 @@ carries more of them than usual:
 |---|---|---|
 | `regular` | 400 | Post copy, handles, times. |
 | `soft` | 450 | The profile's inactive section tabs and the smallest captions. |
-| `medium` | 500 | Chips, CTAs, the composer's handle — anywhere a label should read visibly heavier. |
+| `medium` | 500 | Chips, CTAs, the composer's handle — anywhere the original is visibly heavier. |
 | `strong` | 550 | The profile's section label and the share plate. |
 | `semibold` | 600 | The detail header. |
 | `bold` | 700 | The profile name, the login wordmark. |
@@ -152,7 +155,7 @@ text gutter: every post, reply and composer row starts its text at x 60, with a 
 x 6.2 to its left. A feed row reserves 48 dp for the author line before the body copy begins, and
 closes with a four-key action row in 72 dp slots from x 16.
 
-The action keys are the one place where the layout is carried as explicit boxes rather than derived
+The action keys are the one place where the layout is carried as measured boxes rather than derived
 from a rule, because the boxes are not uniform — a key with a four-digit count is wider than one with
 a bare label, and the row's four widths follow that. Detail pages widen the same row to the full
 column and give it a taller box; replies indent by 34.2 dp per level, which is also the step the
@@ -194,7 +197,7 @@ per-level indent of 34.2 dp, so a long thread reads as one conversation rather t
 
 **Profile section tabs.** Threads / Replies / Media / Reposts, each with its own weight and tracking.
 The active label is black and slightly heavier; inactive labels use `tertiary`. Because the face draws
-each label a little wide, the active tab carries a small negative tracking rather
+each label a little wider than the original, the active tab carries a small negative tracking rather
 than stepping its weight down — tracking moves the run's extent without touching how dark it reads.
 
 **Inbox filter.** A 48 dp square hit area whose outlined plate is inset inside it, so the control
@@ -223,14 +226,59 @@ frame's coordinates.
 
 Change a value in `src/tokens.ts` first and rebuild; tokens are shared across screens, so one change
 moves several. Longer notes on a screen's own geometry live in that component's file header — the
-box tables an edit would otherwise have to work out again.
+measured tables an edit would otherwise have to rediscover.
 
 ## Known Gaps
 
 - Only the first batch is built. Dark theme, the image viewer, repost and quote sheets, the full
   audience selector, follow-state sync, edit-profile and settings are not in this edition.
-- Icons are original drawings, not the app's own icon artwork.
+- Icons are original drawings that approximate the originals' geometry rather than the originals.
 - The feed is a fixed local set of posts, accounts and artwork; search, filtering and real account
   data are not modelled, and the composer's Post does not persist anything.
 - Checked in one browser at 393 dp; that is not a statement about other browsers or about native
   acceptance.
+
+---
+
+<!-- Everything below is internal development provenance. It is not part of the outcome document and
+     is not what ships: `spec/export-manifest.json` declares DESIGN.md under `preserve`, so the
+     publication checkout is authored separately from this file. Keep new provenance here rather than
+     in the sections above, which are written for a reader of the design system. -->
+
+## Provenance (internal)
+
+Where each group of values above comes from, so a later edit can re-derive rather than re-guess.
+
+**The frame.** `x_logical = x_raw / 2.75`, `y_logical = (y_raw - 136) / 2.75` against the reference
+build's 1080 × 2340 raster at 440 dpi, whose own status bar is the 136 px that is subtracted. 2.75 is
+1080 / 393. `src/tokens.ts` states the same mapping at the top of the file.
+
+**Colours.** Median of the 1% of pixels furthest from each box's dominant colour, read off the
+reference rasters — the same rule the acceptance gate's `colour()` uses, which is why the canvas is
+`#FCFCFC` and not `#FFFFFF`. The per-token sample coordinates are in the comments of
+`src/tokens.ts`, one line each, with the capture named.
+
+**Type sizes.** A single-line run reports its rendered width in the reference dump; dividing by the
+original face's own advance width for that string (normalised to em) gives the size. The clusters
+that come back are 15 / 16 / 17 / 24 dp, which is where `type` comes from. The original face is
+proprietary, so the substitute was chosen by per-string advance width over a 140-string corpus taken
+from the T1–T10 dumps — mean deviation 1.48%, best size multiplier 0.9976, i.e. none needed. Ranking
+and full candidate table: `spec/font-metrics.json`.
+
+**Weights.** The substitute face is declared `font-weight: 100 900` in `src/webfont.ts`, so the stops
+are real axis positions. Where a row's ink did not match at the declared stop, the axis was swept in
+situ (400 → 700 in 50 steps, plus 200–350 to confirm the axis is clamped at 400) and the stop was
+chosen from the measured curve. Rows whose whole available range stays outside the band are
+registered, with their curves, in `spec/gate.json#ink_amount_deviations`; each carries the reason it
+cannot be closed. The curve sweep lives in `.runtime/_scratch/weight_curve_insitu.py`.
+
+**Boxes carried as measured values.** The action-key boxes, the feed card headers, the bottom bar's
+plate and the profile tabs are per-screen measured tables rather than derived rules, because the
+reference's own widget internals decided them — the four action-key widths follow the digit count of
+its sample content. Each table names its capture in the component's file header (`ThreadDetail.tsx`
+and `tokens.ts` for the action rows, `Chrome.tsx` for the bar, `ProfileScreen.tsx` for the tabs).
+
+**Deviations knowingly carried.** Custom icon glyphs, a substitute typeface and the rows registered in
+`spec/gate.json#ink_amount_deviations`. Two reference boxes that the acceptance gate cannot compare
+are recorded separately in `spec/gate.json#ref_box_anomalies` — a box 8.4 dp tall that crops its own
+glyphs, and a container box that is effectively unpainted.

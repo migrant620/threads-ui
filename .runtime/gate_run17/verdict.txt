@@ -1,0 +1,326 @@
+bundle a328d1a01310d06d2aa74e301c9f73be  src 89acd03f07022970  tol +/-2.0dp  ink <=40  ALL_PASS=True
+PASS T1-home-feed: 37/37 rows, missing 0, extra 0, reach 335/335 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 2/2 text runs within 0.9-1.15 (worst 1.219)
+    ~ content 'CNN, MS NOW and Politico to sue ' -> 'Coastal path reopened this morni' via run (centres 0.9 dp apart)
+    ~ content 'cnn.it/4xHXi…' -> 'harborline.org' via run (centres 3.0 dp apart)
+    ~ content 'Like 72' -> 'Like 72' via control (centres 0.5 dp apart)
+    ~ content 'Reply 3' -> 'Reply 3' via control (centres 0.5 dp apart)
+    ~ content 'Repost 2' -> 'Repost 2' via control (centres 0.5 dp apart)
+    ~ content 'We are in a simulation' -> 'We are in a simulation' via run (centres 2.1 dp apart)
+    ~ content 'cnn posted' -> 'seafog posted' via control (centres 0.0 dp apart)
+    ~ content 'cnn' -> 'seafog' via run (centres 0.1 dp apart)
+    ~ content '25m' -> '25m' via control (centres 0.2 dp apart)
+    ~ content 'cnn profile photo' -> 'seafog profile photo' via control (centres 0.2 dp apart)
+    ~ content 'karaswisher posted' -> 'quietmiles posted' via control (centres 0.1 dp apart)
+    ~ content 'karaswisher � � 20h' -> '�' via run (centres 0.7 dp apart)
+    ~ content 'karaswisher' -> 'quietmiles' via run (centres 0.1 dp apart)
+    ~ content '20h' -> '20h' via control (centres 0.1 dp apart)
+    ~ content 'karaswisher profile photo' -> 'quietmiles profile photo' via control (centres 2.8 dp apart)
+    ~ ink amount ratio 1.219 registered as a deviation on 'm620ui' (ref 674k web 821k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 821k against the reference's 674k, a ratio of 1.219. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived y/h on 'cnn.it/4xHXi…' ref [214.3, 180.5, 93.5, 41.8] web [215.1, 194.8, 93.5, 19] (reference box contradicts its own raster)
+    ~ waived h on 'karaswisher profile photo' ref [6.2, 679.7, 48.0, 42.2] web [6.2, 679.7, 48, 48] (reference box contradicts its own raster)
+    ~ reach: 'seafog profile photo' at [5.1, 106.2, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog posted' at [0, 107.9, 323.7, 14.4] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog' at [41.7, 95.2, 39.3, 39.5] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: '25m' at [80.9, 95.2, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: 'BUTTON' at [284.2, 91.1, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: 'More options' at [297.3, 107.9, 13.2, 13.2] @360x640 is covered by another control of the same layer 'Open post'
+    ~ reach: 'quietmiles profile photo' at [5.1, 327.5, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles posted' at [0, 339.9, 323.7, 14.4] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles' at [49.4, 328, 71.9, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'Verified' at [107.6, 327.5, 14.7, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [122.3, 327.5, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: '20h' at [141.5, 328, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [284.2, 328, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'More options' at [297.3, 340.7, 13.2, 13.2] @360x640 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'cafehours profile photo' at [5.1, 328, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours posted' at [0, 340.4, 323.7, 14.4] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours' at [41.7, 327.7, 39.3, 39.5] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: '3h' at [80.9, 327.7, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'BUTTON' at [284.2, 327.7, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'More options' at [297.3, 341.2, 13.2, 13.2] @360x640 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'keyboardnotes profile photo' at [5.1, 327.7, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes posted' at [0, 340.1, 323.7, 14.4] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes' at [41.7, 327.4, 39.3, 39.5] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: '8h' at [80.9, 327.4, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'BUTTON' at [284.2, 327.4, 39.5, 39.5] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'More options' at [297.3, 340.9, 13.2, 13.2] @360x640 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'seafog profile photo' at [4.5, 94.3, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog posted' at [0, 95.8, 287.3, 12.8] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog' at [37, 84.5, 34.9, 35.1] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: '25m' at [71.8, 84.5, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: 'BUTTON' at [252.2, 80.8, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: 'More options' at [263.9, 95.8, 11.7, 11.7] @320x568 is covered by another control of the same layer 'Open post'
+    ~ reach: 'quietmiles profile photo' at [4.5, 290.7, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles posted' at [0, 301.7, 287.3, 12.8] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles' at [43.9, 291.1, 63.8, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'Verified' at [95.5, 290.6, 13, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [108.6, 290.6, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: '20h' at [125.6, 291.1, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [252.2, 291.1, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'More options' at [263.9, 302.4, 11.7, 11.7] @320x568 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'cafehours profile photo' at [4.5, 291.1, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours posted' at [0, 302.1, 287.3, 12.8] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours' at [37, 290.8, 34.9, 35.1] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: '3h' at [71.8, 290.8, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'BUTTON' at [252.2, 290.8, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'More options' at [263.9, 302.8, 11.7, 11.7] @320x568 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'keyboardnotes profile photo' at [4.5, 290.9, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes posted' at [0, 301.8, 287.3, 12.8] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes' at [37, 290.6, 34.9, 35.1] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: '8h' at [71.8, 290.6, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'BUTTON' at [252.2, 290.6, 35.1, 35.1] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'More options' at [263.9, 302.6, 11.7, 11.7] @320x568 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'seafog profile photo' at [4.5, 93, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog posted' at [0, 94.4, 283.2, 12.6] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog' at [36.5, 83.3, 34.4, 34.6] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: '25m' at [70.8, 83.3, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: 'BUTTON' at [248.6, 79.7, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: 'More options' at [260.2, 94.4, 11.5, 11.5] @360x560 is covered by another control of the same layer 'Open post'
+    ~ reach: 'quietmiles profile photo' at [4.5, 286.6, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles posted' at [0, 297.4, 283.2, 12.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles' at [43.2, 287, 62.9, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'Verified' at [94.1, 286.5, 12.8, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [107, 286.5, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: '20h' at [123.8, 287, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [248.6, 287, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'More options' at [260.2, 298.1, 11.5, 11.5] @360x560 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'cafehours profile photo' at [4.5, 287, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours posted' at [0, 297.8, 283.2, 12.6] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours' at [36.5, 286.7, 34.4, 34.6] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: '3h' at [70.8, 286.7, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'BUTTON' at [248.6, 286.7, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'More options' at [260.2, 298.5, 11.5, 11.5] @360x560 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'keyboardnotes profile photo' at [4.5, 286.8, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes posted' at [0, 297.6, 283.2, 12.6] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes' at [36.5, 286.5, 34.4, 34.6] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: '8h' at [70.8, 286.5, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'BUTTON' at [248.6, 286.5, 34.6, 34.6] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'More options' at [260.2, 298.3, 11.5, 11.5] @360x560 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'seafog profile photo' at [6.2, 129, 48, 48] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog posted' at [0, 131, 393, 17.5] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog' at [50.6, 115.6, 47.7, 48] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: '25m' at [98.2, 115.6, 48, 48] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: 'BUTTON' at [345, 110.6, 48, 48] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: 'More options' at [361, 131, 16, 16] @430x932 is covered by another control of the same layer 'Open post'
+    ~ reach: 'quietmiles profile photo' at [6.2, 397.7, 48, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles posted' at [0, 412.7, 393, 17.5] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles' at [60, 398.3, 87.3, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'Verified' at [130.6, 397.6, 17.8, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [148.5, 397.6, 48, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: '20h' at [171.8, 398.3, 48, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [345, 398.3, 48, 48] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'More options' at [361, 413.7, 16, 16] @430x932 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'cafehours profile photo' at [6.2, 398.2, 48, 48] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours posted' at [0, 413.2, 393, 17.5] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours' at [50.6, 397.8, 47.7, 48] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: '3h' at [98.2, 397.8, 48, 48] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'BUTTON' at [345, 397.8, 48, 48] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'More options' at [361, 414.2, 16, 16] @430x932 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'keyboardnotes profile photo' at [6.2, 397.9, 48, 48] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes posted' at [0, 412.9, 393, 17.5] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes' at [50.6, 397.5, 47.7, 48] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: '8h' at [98.2, 397.5, 48, 48] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'BUTTON' at [345, 397.5, 48, 48] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'More options' at [361, 413.9, 16, 16] @430x932 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'seafog profile photo' at [6.2, 129, 48, 48] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog posted' at [0, 131, 393, 17.5] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: 'seafog' at [50.6, 115.6, 47.7, 48] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: '25m' at [98.2, 115.6, 48, 48] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: 'BUTTON' at [345, 110.6, 48, 48] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: 'More options' at [361, 131, 16, 16] @768x1024 is covered by another control of the same layer 'Open post'
+    ~ reach: 'quietmiles profile photo' at [6.2, 397.7, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles posted' at [0, 412.7, 393, 17.5] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'quietmiles' at [60, 398.3, 87.3, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'Verified' at [130.6, 397.6, 17.8, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [148.5, 397.6, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: '20h' at [171.8, 398.3, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'BUTTON' at [345, 398.3, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'More options' at [361, 413.7, 16, 16] @768x1024 is covered by another control of the same layer 'Open post by quietmiles'
+    ~ reach: 'cafehours profile photo' at [6.2, 398.2, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours posted' at [0, 413.2, 393, 17.5] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'cafehours' at [50.6, 397.8, 47.7, 48] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: '3h' at [98.2, 397.8, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'BUTTON' at [345, 397.8, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'More options' at [361, 414.2, 16, 16] @768x1024 is covered by another control of the same layer 'Open post by cafehours'
+    ~ reach: 'keyboardnotes profile photo' at [6.2, 397.9, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes posted' at [0, 412.9, 393, 17.5] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'keyboardnotes' at [50.6, 397.5, 47.7, 48] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: '8h' at [98.2, 397.5, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'BUTTON' at [345, 397.5, 48, 48] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+    ~ reach: 'More options' at [361, 413.9, 16, 16] @768x1024 is covered by another control of the same layer 'Open post by keyboardnotes'
+PASS T3-post-detail: 67/67 rows, missing 0, extra 0, reach 290/290 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 6/6 text runs within 0.9-1.15 (worst 0.654)
+    ~ content '108,288' -> '7.2K' via run (centres 0.1 dp apart)
+    ~ content 'case.murphy posted' -> 'harborline posted' via control (centres 0.1 dp apart)
+    ~ content 'case.murphy profile photo' -> 'harborline profile photo' via control (centres 0.0 dp apart)
+    ~ content 'case.murphy' -> 'harborline' via run (centres 0.1 dp apart)
+    ~ content '21h' -> '21h' via run (centres 0.1 dp apart)
+    ~ content 'If you live in Colorado’s 4th Co' -> 'The trail survey is done. Twelve' via run (centres 0.4 dp apart)
+    ~ content 'Like 7225' -> 'Like 7236' via control (centres 0.0 dp apart)
+    ~ content 'Reply 165' -> 'Reply 165' via control (centres 0.1 dp apart)
+    ~ content 'Repost 395' -> 'Repost 395' via control (centres 0.0 dp apart)
+    ~ content 'Share 273' -> 'Share' via control (centres 0.0 dp apart)
+    ~ content 'Trending  Ethics complaint again' -> 'Trending · Trail survey results ' via run (centres 0.1 dp apart)
+    ~ content 'Apparently, there’s compensation' -> 'That matches the northern sectio' via run (centres 0.5 dp apart)
+    ~ content 'Like 88' -> 'Like 88' via control (centres 0.0 dp apart)
+    ~ content 'Reply 3' -> 'Reply 3' via control (centres 0.0 dp apart)
+    ~ content 'Repost 1' -> 'Repost 1' via control (centres 0.1 dp apart)
+    ~ content 'Apparently there is! 🤣' -> 'Noted. Which stretch was that?' via run (centres 0.5 dp apart)
+    ~ content 'Like 23' -> 'Like 23' via control (centres 0.1 dp apart)
+    ~ content 'But are antibiotics really consi' -> 'Is the middle access point open ' via run (centres 0.4 dp apart)
+    ~ content 'Like 22' -> 'Like 22' via control (centres 0.0 dp apart)
+    ~ content 'Reply 3' -> 'Reply 3' via control (centres 0.0 dp apart)
+    ~ content 'smokin_ptsd posted' -> 'quietmiles posted' via control (centres 0.0 dp apart)
+    ~ content 'smokin_ptsd' -> 'quietmiles' via run (centres 0.0 dp apart)
+    ~ content '21h' -> '21h' via run (centres 0.0 dp apart)
+    ~ content 'smokin_ptsd profile photo' -> 'quietmiles profile photo' via control (centres 0.0 dp apart)
+    ~ content 'case.murphy posted' -> 'harborline posted' via control (centres 0.0 dp apart)
+    ~ content 'case.murphy 21h �' -> 'harborline 20h' via control (centres 0.0 dp apart)
+    ~ content 'case.murphy' -> 'harborline' via run (centres 0.0 dp apart)
+    ~ content '21h' -> '20h' via run (centres 0.0 dp apart)
+    ~ content 'case.murphy profile photo' -> 'harborline profile photo' via control (centres 0.0 dp apart)
+    ~ content 'floopeygirl posted' -> 'cafehours posted' via control (centres 0.1 dp apart)
+    ~ content 'floopeygirl' -> 'cafehours' via run (centres 0.1 dp apart)
+    ~ content '18h' -> '18h' via run (centres 0.1 dp apart)
+    ~ content 'floopeygirl profile photo' -> 'cafehours profile photo' via control (centres 0.1 dp apart)
+    ~ content 'Reply to case.murphy' -> 'Reply to harborline' via control (centres 0.1 dp apart)
+    ~ content 'Reply to case.murphy' -> 'Reply to harborline' via run (centres 0.8 dp apart)
+    ~ ink amount ratio 1.164 registered as a deviation on 'Thread' (ref 1106k web 1288k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1288k against the reference's 1106k, a ratio of 1.164. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.372 registered as a deviation on 'views' (ref 101k web 139k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 139k against the reference's 101k, a ratio of 1.372. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.87 registered as a deviation on 'View activity' (ref 342k web 298k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 298k against the reference's 342k, a ratio of 0.87. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.654 registered as a deviation on 'Show replies' (ref 367k web 240k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 240k against the reference's 367k, a ratio of 0.654. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.225 registered as a deviation on 'Author' (ref 213k web 261k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 261k against the reference's 213k, a ratio of 1.225. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T4-composer-empty: 20/20 rows, missing 0, extra 0, reach 90/90 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 6/6 text runs within 0.9-1.15 (worst 1.737)
+    ~ ink amount ratio 1.173 registered as a deviation on 'New thread' (ref 1808k web 2121k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2121k against the reference's 1808k, a ratio of 1.173. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived cy on 'What's new?' ref [60.0, 104.1, 83.7, 8.4] web [60, 94.7, 83.5, 18] (reference box contradicts its own raster)
+    ~ ink amount ratio 1.737 registered as a deviation on 'What's new?' (ref 172k web 298k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 311k against the reference's 172k, a ratio of 1.808. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived w on 'm620ui �Community or topic' ref [115.7, 71.3, 149.9, 17.5] web [115.7, 70.3, 208.9, 19] (reference box contradicts its own raster)
+    ~ ink amount ratio 0.663 registered as a deviation on 'm620ui �Community or topic' (ref 536k web 355k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 293k against the reference's 536k, a ratio of 0.547. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.782 registered as a deviation on 'Post options' (ref 436k web 341k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 341k against the reference's 436k, a ratio of 0.782. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.17 registered as a deviation on 'Post' (ref 39k web 45k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 45k against the reference's 39k, a ratio of 1.17. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ not a control, skipped by reach (pointer-events: none): Post disabled
+PASS T4-composer-typed: 22/22 rows, missing 0, extra 0
+    ink amount ratio: 6/6 text runs within 0.9-1.15 (worst 0.663)
+    ~ ink amount ratio 1.173 registered as a deviation on 'New thread' (ref 1808k web 2121k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2121k against the reference's 1808k, a ratio of 1.173. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.152 registered as a deviation on 'Hello' (ref 482k web 556k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 3510k against the reference's 482k, a ratio of 7.277. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived w on 'm620ui �Community or topic' ref [115.7, 71.3, 149.9, 17.5] web [115.7, 70.3, 208.9, 19] (reference box contradicts its own raster)
+    ~ ink amount ratio 0.663 registered as a deviation on 'm620ui �Community or topic' (ref 536k web 355k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 392k against the reference's 536k, a ratio of 0.731. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.879 registered as a deviation on 'Add to thread' (ref 387k web 340k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 340k against the reference's 387k, a ratio of 0.879. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.782 registered as a deviation on 'Post options' (ref 436k web 341k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 341k against the reference's 436k, a ratio of 0.782. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.182 registered as a deviation on 'Post' (ref 427k web 504k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 504k against the reference's 427k, a ratio of 1.182. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T5-composer-two: 36/36 rows, missing 0, extra 0
+    ink amount ratio: 15/15 text runs within 0.9-1.15 (worst 13.03)
+    ~ ink amount ratio 1.173 registered as a deviation on 'New thread' (ref 1808k web 2121k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2121k against the reference's 1808k, a ratio of 1.173. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived w on 'Hello �' ref [60.0, 104.1, 74.2, 12.0] web [60, 100.1, 53.0, 19] (reference box contradicts its own raster)
+    ~ ink amount ratio 1.367 registered as a deviation on 'Hello �' (ref 299k web 408k): The reference's own box for this run is a dump-edge artifact - 12.0 dp tall against the run's 19 (the same clipped box the row's cy waiver already names) - so the reference side sums its contrast over a band that cuts the glyphs' lower half, understating it. The field's raster carries an eight-direction 0.2 px ground-colour shadow so the merged field box's ink reads as the reference's own flat black at the 96,681-px union box's 1% cut (without it the Windows renderer's ClearType fringe puts a chromatic median on that box, 141,94,102 against 2,2,2); the shadow restores the stroke weight the reference's own face shows and the small row's amount reads the restored weight against the clipped reference box. Geometry (x, cy), ink colour and both edges of the line still pass and are still compared.
+    ~ ink amount ratio 2.27 registered as a deviation on '1' (ref 9k web 21k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 22k against the reference's 9k, a ratio of 2.363. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.706 registered as a deviation on '/' (ref 7k web 12k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 14k against the reference's 10k, a ratio of 1.336. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.781 registered as a deviation on '2' (ref 15k web 26k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 30k against the reference's 23k, a ratio of 1.312. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived w on 'm620ui �Community or topic' ref [115.7, 71.3, 149.9, 17.5] web [115.7, 70.3, 208.9, 19] (reference box contradicts its own raster)
+    ~ ink amount ratio 0.663 registered as a deviation on 'm620ui �Community or topic' (ref 536k web 355k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 293k against the reference's 536k, a ratio of 0.547. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 2.422 registered as a deviation on 'What's new?' (ref 444k web 1075k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 795k against the reference's 444k, a ratio of 1.792. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived w on 'm620ui  �' ref [115.7, 142.6, 39.7, 20.4] web [115.7, 142.6, 74.1, 19] (reference box contradicts its own raster)
+    ~ ink amount ratio 1.302 registered as a deviation on 'm620ui  �' (ref 91k web 118k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 121k against the reference's 91k, a ratio of 1.327. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.277 registered as a deviation on '/' (ref 10k web 13k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 14k against the reference's 10k, a ratio of 1.336. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.288 registered as a deviation on '2' (ref 23k web 29k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 30k against the reference's 23k, a ratio of 1.312. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.762 registered as a deviation on 'Post options' (ref 436k web 332k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 341k against the reference's 436k, a ratio of 0.782. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 13.03 registered as a deviation on 'Post' (ref 39k web 503k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 504k against the reference's 39k, a ratio of 13.051. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T6-search-landing: 29/29 rows, missing 0, extra 0, reach 75/75 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 6/6 text runs within 0.9-1.15 (worst 3.379)
+    ~ content 'Unidentified object over Tehran' -> 'Harbour ferry timetable' via run (centres 0.2 dp apart)
+    ~ content 'Multi-colored lights appeared ov' -> 'Winter timetable starts Monday, ' via run (centres 1.7 dp apart)
+    ~ content 'Clancy's 60 Minutes interview' -> 'Cliff path repairs finish' via run (centres 0.1 dp apart)
+    ~ content 'Patrick Clancy's interview on 60' -> 'The western steps reopened after' via run (centres 1.5 dp apart)
+    ~ content 'Resident Evil reboot sets record' -> 'Night market returns' via run (centres 0.3 dp apart)
+    ~ content 'The Resident Evil reboot earned ' -> 'Forty stalls return to the old d' via run (centres 1.7 dp apart)
+    ~ content 'ICE agent shoots man in Austin' -> 'Depot line reopens' via run (centres 0.1 dp apart)
+    ~ content 'An ICE agent shot Wilber Rafael ' -> 'Trains run again between the two' via run (centres 1.6 dp apart)
+    ~ content 'Lanterns season 1 episode 6 debu' -> 'Lantern festival lineup' via run (centres 0.3 dp apart)
+    ~ content 'The sixth episode of Lanterns in' -> 'The full programme is out, with ' via run (centres 1.8 dp apart)
+    ~ content 'thisisbillgates' -> 'harborline' via run (centres 0.2 dp apart)
+    ~ content 'Bill Gates' -> 'Coastal path notes and trail sur' via run (centres 0.7 dp apart)
+    ~ waived cy on 'Trending now' ref [16.0, 117.9, 123.0, 9.1] web [16, 119.1, 123.0, 23] (reference box contradicts its own raster)
+    ~ ink amount ratio 3.379 registered as a deviation on 'Trending now' (ref 691k web 2334k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2334k against the reference's 691k, a ratio of 3.379. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ waived cy on 'What people are saying, summariz' ref [16.0, 127.0, 273.6, 37.5] web [16, 145.1, 277.6, 16] (reference box contradicts its own raster)
+    ~ ink amount ratio 0.493 registered as a deviation on 'What people are saying, summariz' (ref 3939k web 1940k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1940k against the reference's 3939k, a ratio of 0.493. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.757 registered as a deviation on 'Follow suggestions' (ref 695k web 526k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 526k against the reference's 695k, a ratio of 0.757. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.828 registered as a deviation on 'Search' (ref 243k web 201k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 205k against the reference's 243k, a ratio of 0.845. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T6-search-results: 36/36 rows, missing 0, extra 0
+    ~ content 'nasa' -> 'northpier' via run (centres 0.3 dp apart)
+    ~ content 'NASA' -> 'North Pier' via run (centres 0.2 dp apart)
+    ~ content 'nas' -> 'orbit' via run (centres 0.2 dp apart)
+    ~ content 'nadia omara' -> 'tidewatch' via run (centres 0.2 dp apart)
+    ~ content 'nascar' -> 'quayside' via run (centres 0.2 dp apart)
+    ~ content 'NASCAR' -> 'Quayside' via run (centres 0.3 dp apart)
+    ~ content 'nastya_nass_' -> 'saltmarsh_' via run (centres 0.2 dp apart)
+    ~ content 'Nastya Nass' -> 'Salt Marsh' via run (centres 0.3 dp apart)
+    ~ content 'nashblackwood' -> 'harbournotes' via run (centres 0.2 dp apart)
+    ~ content 'Nash Blackwood' -> 'Harbour Notes' via run (centres 0.3 dp apart)
+    ~ content 'nast1ks_' -> 'drydock' via run (centres 0.3 dp apart)
+    ~ content 'nast1ks_' -> 'drydock' via run (centres 0.2 dp apart)
+    ~ content 'nashadaa_' -> 'slipway' via run (centres 0.2 dp apart)
+    ~ content '𝓗𓂃 ࣪˖ ִֶָ𐀔' -> '⛵︎˖˖ ࠣ' via run (centres 0.0 dp apart)
+    ~ content 'nasmayaa' -> 'lowwater' via run (centres 0.3 dp apart)
+    ~ content 'Mayynas' -> 'Low Water' via run (centres 0.2 dp apart)
+    ~ content 'sobia_nasir_official' -> 'pierhead_daily' via run (centres 0.2 dp apart)
+    ~ content 'Sobia Nasir' -> 'Pierhead Daily' via run (centres 0.3 dp apart)
+    ~ content 'mnasef668' -> 'mudflats' via run (centres 0.2 dp apart)
+    ~ content 'Mohamed Nasef' -> 'Mud Flats' via run (centres 0.3 dp apart)
+    ~ content 'nasiaeliz' -> 'seamark' via run (centres 0.2 dp apart)
+    ~ content 'Nasia Eliz' -> 'Sea Mark' via run (centres 0.3 dp apart)
+    ~ content 'naserzeynalii' -> 'tidegate' via run (centres 0.2 dp apart)
+    ~ content 'ناصرزينلي' -> 'تيدغيت' via run (centres 1.7 dp apart)
+    ~ content 'nas' -> 'orbit' via run (centres 0.0 dp apart)
+PASS T7-activity: 28/28 rows, missing 0, extra 0, reach 115/115 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 6/6 text runs within 0.9-1.15 (worst 1.311)
+    ~ content 'We updated your settings after 1' -> 'We updated your settings after 1' via run (centres 0.2 dp apart)
+    ~ content 'threads Profile Photo' -> '(unlabelled control)' via control (centres 0.0 dp apart)
+    ~ content 'threads� 7h' -> 'threads' via run (centres 0.2 dp apart)
+    ~ content 'Review your settings to control ' -> 'Review your settings to control ' via run (centres 1.5 dp apart)
+    ~ content 'threads Profile Photo' -> '(unlabelled control)' via control (centres 0.0 dp apart)
+    ~ content 'threads� 7h' -> 'threads' via run (centres 0.2 dp apart)
+    ~ content 'Your profile is public. You can ' -> 'Your profile is public. You can ' via run (centres 1.5 dp apart)
+    ~ ink amount ratio 1.311 registered as a deviation on 'New' (ref 410k web 537k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 537k against the reference's 410k, a ratio of 1.311. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.156 registered as a deviation on 'Follows' (ref 647k web 748k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 748k against the reference's 647k, a ratio of 1.156. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.169 registered as a deviation on 'Conversations' (ref 1153k web 1348k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1348k against the reference's 1153k, a ratio of 1.169. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.174 registered as a deviation on 'Mentions' (ref 821k web 964k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 964k against the reference's 821k, a ratio of 1.174. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T8-profile: 43/43 rows, missing 0, extra 0, reach 170/170 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 12/12 text runs within 0.9-1.15 (worst 1.371)
+    ~ content 'Barack Obama' -> 'harborline' via run (centres 0.2 dp apart)
+    ~ content 'barackobama' -> 'harborline' via run (centres 0.9 dp apart)
+    ~ content 'Alok' -> 'quietmiles' via run (centres 0.2 dp apart)
+    ~ content 'alok' -> 'quietmiles' via run (centres 0.9 dp apart)
+    ~ content 'Jimmy Fallon' -> 'cafehours' via run (centres 0.2 dp apart)
+    ~ ink amount ratio 0.808 registered as a deviation on 'm620ui' (ref 673k web 543k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 543k against the reference's 673k, a ratio of 0.808. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.265 registered as a deviation on '+ Add interests' (ref 328k web 414k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 414k against the reference's 328k, a ratio of 1.265. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.371 registered as a deviation on '0 followers' (ref 312k web 428k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 428k against the reference's 312k, a ratio of 1.371. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.814 registered as a deviation on 'Edit profile' (ref 973k web 793k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 793k against the reference's 973k, a ratio of 0.814. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.291 registered as a deviation on 'Share profile' (ref 1105k web 1427k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1427k against the reference's 1105k, a ratio of 1.291. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.296 registered as a deviation on 'Suggested for you' (ref 1562k web 2024k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2024k against the reference's 1562k, a ratio of 1.296. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.862 registered as a deviation on 'Threads' (ref 758k web 653k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 499k against the reference's 758k, a ratio of 0.659. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.854 registered as a deviation on 'Replies' (ref 226k web 193k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 146k against the reference's 226k, a ratio of 0.647. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.794 registered as a deviation on 'Media' (ref 196k web 156k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 124k against the reference's 196k, a ratio of 0.631. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.228 registered as a deviation on 'Reposts' (ref 239k web 294k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 294k against the reference's 239k, a ratio of 1.228. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.311 registered as a deviation on 'Start your first thread' (ref 1381k web 1811k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1811k against the reference's 1381k, a ratio of 1.311. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T8-profile-replies: 43/43 rows, missing 0, extra 0
+    ink amount ratio: 12/12 text runs within 0.9-1.15 (worst 1.371)
+    ~ content 'Barack Obama' -> 'harborline' via run (centres 0.2 dp apart)
+    ~ content 'barackobama' -> 'harborline' via run (centres 0.9 dp apart)
+    ~ content 'Alok' -> 'quietmiles' via run (centres 0.2 dp apart)
+    ~ content 'alok' -> 'quietmiles' via run (centres 0.9 dp apart)
+    ~ content 'Jimmy Fallon' -> 'cafehours' via run (centres 0.2 dp apart)
+    ~ ink amount ratio 0.808 registered as a deviation on 'm620ui' (ref 673k web 543k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 543k against the reference's 673k, a ratio of 0.808. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.265 registered as a deviation on '+ Add interests' (ref 328k web 414k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 414k against the reference's 328k, a ratio of 1.265. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.371 registered as a deviation on '0 followers' (ref 312k web 428k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 428k against the reference's 312k, a ratio of 1.371. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.814 registered as a deviation on 'Edit profile' (ref 973k web 793k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 793k against the reference's 973k, a ratio of 0.814. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.291 registered as a deviation on 'Share profile' (ref 1105k web 1427k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1427k against the reference's 1105k, a ratio of 1.291. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.296 registered as a deviation on 'Suggested for you' (ref 1562k web 2024k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 2024k against the reference's 1562k, a ratio of 1.296. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.789 registered as a deviation on 'Threads' (ref 226k web 178k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 130k against the reference's 226k, a ratio of 0.575. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 0.794 registered as a deviation on 'Media' (ref 196k web 156k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 124k against the reference's 196k, a ratio of 0.631. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.228 registered as a deviation on 'Reposts' (ref 239k web 294k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 294k against the reference's 239k, a ratio of 1.228. Its geometry, ink colour and both edges of its line still pass and are still compared.
+PASS T10-login-generic: 12/12 rows, missing 0, extra 0, reach 40/40 @360x640+320x568+360x560+430x932+768x1024
+    ink amount ratio: 5/5 text runs within 0.9-1.15 (worst 1.298)
+    ~ ink amount ratio 1.298 registered as a deviation on 'Log in' (ref 310k web 402k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 402k against the reference's 310k, a ratio of 1.298. Its geometry, ink colour and both edges of its line still pass and are still compared.
+    ~ ink amount ratio 1.272 registered as a deviation on 'Forgot password?' (ref 1305k web 1660k): Substitute face, not the reference's own. Meta Optimistic VF is proprietary and the body face is Instrument Sans (see spec/font-metrics.json: 1.48% mean advance deviation over a 140-string corpus, no size compensation). Total contrast is glyph count x stroke weight, so that difference carries straight into the band: this run measures 1660k against the reference's 1305k, a ratio of 1.272. Its geometry, ink colour and both edges of its line still pass and are still compared.

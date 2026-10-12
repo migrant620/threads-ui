@@ -1,0 +1,5683 @@
+{
+  "bundle": "f2ac3535b60887922ce9ef4961f68a5d",
+  "bundle_sha": "5582f8f073370f31",
+  "served_bundle": "f2ac3535b60887922ce9ef4961f68a5d",
+  "src_sha": "e17d5b4f35b4f372",
+  "spec_sha": "54a54b3652e3a0b6",
+  "dist_newer_than_src": true,
+  "reference_sha": "225abf726bb47deb",
+  "reference_files": 71,
+  "assets_sha": "5a2fc02b4da4443c",
+  "assets_files": 13,
+  "tool_sha": "cbc6798af4555f4da3c4d850f30457ea8eb27d7c68f681a8c432091da54dbc89",
+  "inputs": [
+    {
+      "path": "spec/gate.json",
+      "sha256": "a31361ab19e7b7d9f0fae8efa6d8d8ff22070af979762bb5ddce0a23ae9edb67"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "949f443e8bc17f83120871fe3d7891d56f1aca50b49779a24513aa915d57f62a"
+    },
+    {
+      "path": "src/components/ActivityScreen.tsx",
+      "sha256": "d3b50e7a5e13532a2fcb33e88a87d8f2c42072214cf89f0b2863f3c2a939e540"
+    },
+    {
+      "path": "src/components/Chrome.tsx",
+      "sha256": "99bc5bde6325cff5ec782730d6698d2760ca43c7a9aeb4262cf7bf6dead3b639"
+    },
+    {
+      "path": "src/components/Composer.tsx",
+      "sha256": "6a4a6b74b5ca3ceaf182d37ebd8c11d0fded51d6b8643c444d25148388b7103d"
+    },
+    {
+      "path": "src/components/FeedScreen.tsx",
+      "sha256": "0ad574d814ba84c281de5fb9d0f5ade5a4484607bfc3f1b1341d23fc7e39d89a"
+    },
+    {
+      "path": "src/components/Icons.tsx",
+      "sha256": "e9d8cebf8ad221206cea1f3a098b3705c13ad1c38a6a1f0561666b6d06a02186"
+    },
+    {
+      "path": "src/components/LoginScreen.tsx",
+      "sha256": "d490b3f5bc4d2b5f34fd9c63dd53cd263be26d9b27466b0cf0425eacbd13dbb0"
+    },
+    {
+      "path": "src/components/MessagesScreen.tsx",
+      "sha256": "74799387fc84ceddb948a358915f87a3d09104da49f8e9ffbbd0bf5fbe491194"
+    },
+    {
+      "path": "src/components/ProfileScreen.tsx",
+      "sha256": "5c285d5edc405fe4f0eaed25578548f10f9df0fff531a4baba16c4c65387e9ce"
+    },
+    {
+      "path": "src/components/SearchScreen.tsx",
+      "sha256": "1b37c02a26ec4bd4aa6649dd4dc8c6534574137078bb95617fff274509f86a4a"
+    },
+    {
+      "path": "src/components/ThreadDetail.tsx",
+      "sha256": "97db95bfc721768b7c8735c6fb7e3cd9adaf45043aa3dd5be596d094b8578041"
+    },
+    {
+      "path": "src/data.ts",
+      "sha256": "597fd7d7f4995b022eb6e7649f96bf35ac303e55829a4b6f0189e784b6c560ea"
+    },
+    {
+      "path": "src/declarations.d.ts",
+      "sha256": "509e2496a7b348ae3060bcafb94b0822f35da7f038ec5c3b5adf7ba8af03ad64"
+    },
+    {
+      "path": "src/layout.ts",
+      "sha256": "b0f9058c577ad8c8b0f6c114a5898b2b38d79bbed74f4bed69dfea0a526c1846"
+    },
+    {
+      "path": "src/tokens.ts",
+      "sha256": "9855f3bd60761a622b9dcd72063fbf23c5abe4fdf62c2b7567eb7b18e0e600b9"
+    },
+    {
+      "path": "src/webfont.ts",
+      "sha256": "33737406b9b86655eb30250c913e9dfc2f85c797a22cc95b045ebfd37cd44098"
+    }
+  ],
+  "tolerance_dp": 2.0,
+  "colour_tolerance": 40,
+  "extra_allowed": {},
+  "all_pass": false,
+  "states": {
+    "T3-post-detail": {
+      "pass": true,
+      "rows": 67,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [
+        {
+          "ref": "108,288",
+          "matched": "7.2K",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "case.murphy posted",
+          "matched": "harborline posted",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "case.murphy profile photo",
+          "matched": "harborline profile photo",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "case.murphy",
+          "matched": "harborline",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "21h",
+          "matched": "21h",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "If you live in Colorado’s 4th Congressional District and you haven’t had an affair with Lauren Boebert, you may be entitled to compensation.",
+          "matched": "The trail survey is done. Twelve kilometres of coastline mapped, three access points need new steps, and the rest is just signage.",
+          "via": "run",
+          "distance": 0.4
+        },
+        {
+          "ref": "Like 7225",
+          "matched": "Like 7236",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Reply 165",
+          "matched": "Reply 165",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "Repost 395",
+          "matched": "Repost 395",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Share 273",
+          "matched": "Share",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Trending  Ethics complaint against Boebert · 6K posts [chevron]",
+          "matched": "Trending · Trail survey results · 6K posts",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "Apparently, there’s compensation if you have as well.",
+          "matched": "That matches the northern section, though our steps held up better than expected.",
+          "via": "run",
+          "distance": 0.5
+        },
+        {
+          "ref": "Like 88",
+          "matched": "Like 88",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Reply 3",
+          "matched": "Reply 3",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Repost 1",
+          "matched": "Repost 1",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "Apparently there is! 🤣",
+          "matched": "Noted. Which stretch was that?",
+          "via": "run",
+          "distance": 0.5
+        },
+        {
+          "ref": "Like 23",
+          "matched": "Like 23",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "But are antibiotics really considered compensation?🤔",
+          "matched": "Is the middle access point open again, or still fenced off?",
+          "via": "run",
+          "distance": 0.4
+        },
+        {
+          "ref": "Like 22",
+          "matched": "Like 22",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "Reply 3",
+          "matched": "Reply 3",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "smokin_ptsd posted",
+          "matched": "quietmiles posted",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "smokin_ptsd",
+          "matched": "quietmiles",
+          "via": "run",
+          "distance": 0.0
+        },
+        {
+          "ref": "21h",
+          "matched": "21h",
+          "via": "run",
+          "distance": 0.0
+        },
+        {
+          "ref": "smokin_ptsd profile photo",
+          "matched": "quietmiles profile photo",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "case.murphy posted",
+          "matched": "harborline posted",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "case.murphy 21h �",
+          "matched": "harborline 20h",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "case.murphy",
+          "matched": "harborline",
+          "via": "run",
+          "distance": 0.0
+        },
+        {
+          "ref": "21h",
+          "matched": "20h",
+          "via": "run",
+          "distance": 0.0
+        },
+        {
+          "ref": "case.murphy profile photo",
+          "matched": "harborline profile photo",
+          "via": "control",
+          "distance": 0.0
+        },
+        {
+          "ref": "floopeygirl posted",
+          "matched": "cafehours posted",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "floopeygirl",
+          "matched": "cafehours",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "18h",
+          "matched": "18h",
+          "via": "run",
+          "distance": 0.1
+        },
+        {
+          "ref": "floopeygirl profile photo",
+          "matched": "cafehours profile photo",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "Reply to case.murphy",
+          "matched": "Reply to harborline",
+          "via": "control",
+          "distance": 0.1
+        },
+        {
+          "ref": "Reply to case.murphy",
+          "matched": "Reply to harborline",
+          "via": "run",
+          "distance": 0.8
+        }
+      ],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Back",
+          "found": 1,
+          "want": true,
+          "pass": true
+        },
+        {
+          "assert": "assert_label_absent",
+          "target": "Menu",
+          "found": 0,
+          "want": false,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": {
+        "checked": 290,
+        "unreachable": [],
+        "label_carriers": [],
+        "coincident": []
+      },
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Back",
+          "kind": "target",
+          "ref": [
+            0.0,
+            4.0,
+            60.0,
+            48.0
+          ],
+          "web": [
+            0,
+            4,
+            60,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            9.5,
+            63.3,
+            23.3
+          ],
+          "web": [
+            60,
+            9.5,
+            63.6,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.4,
+            "w": 0.2
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 1106,
+            "amount_web": 1116,
+            "amount_ratio": 1.009,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "108,288",
+          "kind": "text",
+          "ref": [
+            60.0,
+            32.8,
+            47.3,
+            14.2
+          ],
+          "web": [
+            60,
+            30.8,
+            29.7,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "views",
+          "kind": "text",
+          "ref": [
+            107.3,
+            32.8,
+            36.4,
+            14.2
+          ],
+          "web": [
+            107.3,
+            30.8,
+            36.9,
+            18
+          ],
+          "d": {
+            "x": -0.1,
+            "cy": -0.0,
+            "w": 0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 101,
+            "amount_web": 139,
+            "amount_ratio": 1.372,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.372 against the reference's own, registered at w400:1.372. The substitute face's weight axis (w400:1.372 w450:1.53 w500:1.685 w550:1.833 w600:1.985 w650:2.136 w700:2.293) was swept on this run's own boxes, so no stop on it closes the gap: the face's wght axis spans 400-700 and 400 is its lightest instance (200/250/300/350 all clamp to it and return this same ratio), so the run is 37% over the reference's ink at the lightest stop that exists. The reference's own grey 14.5 dp caption is simply thinner than Instrument Sans' regular."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Turn on notifications to thread for 24 hours",
+          "kind": "target",
+          "ref": [
+            300.9,
+            4.4,
+            32.0,
+            48.0
+          ],
+          "web": [
+            300.9,
+            4,
+            32,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.4,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            333.0,
+            4.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            333,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.4,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "case.murphy posted",
+          "kind": "target",
+          "ref": [
+            0.0,
+            65.1,
+            393.0,
+            48.0
+          ],
+          "web": [
+            0,
+            65.1,
+            393,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "case.murphy profile photo",
+          "kind": "target",
+          "ref": [
+            10.2,
+            65.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            10.2,
+            65.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "case.murphy",
+          "kind": "target",
+          "ref": [
+            68.0,
+            65.1,
+            81.5,
+            48.0
+          ],
+          "web": [
+            68,
+            65.1,
+            81.5,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "21h",
+          "kind": "target",
+          "ref": [
+            149.6,
+            65.1,
+            48.0,
+            48.0
+          ],
+          "web": [
+            149.6,
+            65.1,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Follow",
+          "kind": "target",
+          "ref": [
+            314.8,
+            65.1,
+            62.2,
+            48.0
+          ],
+          "web": [
+            314.8,
+            65.1,
+            62.2,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "If you live in Colorado’s 4th Congressional District and you haven’t had an affair with Lauren Boebert, you may be entitled to compensation.",
+          "kind": "text",
+          "ref": [
+            12.0,
+            122.3,
+            353.0,
+            59.7
+          ],
+          "web": [
+            12,
+            121.4,
+            354.2,
+            62.2
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.4
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Like 7225",
+          "kind": "target",
+          "ref": [
+            0.0,
+            181.9,
+            73.1,
+            44.8
+          ],
+          "web": [
+            0,
+            181.9,
+            73.1,
+            44.8
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.1,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Reply 165",
+          "kind": "target",
+          "ref": [
+            73.1,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "web": [
+            73.1,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.1,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Repost 395",
+          "kind": "target",
+          "ref": [
+            141.9,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "web": [
+            141.9,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.1,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Share 273",
+          "kind": "target",
+          "ref": [
+            210.7,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "web": [
+            210.7,
+            181.9,
+            68.8,
+            44.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.1,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Trending  Ethics complaint against Boebert · 6K posts [chevron]",
+          "kind": "text",
+          "ref": [
+            35.3,
+            242.0,
+            345.7,
+            14.2
+          ],
+          "web": [
+            35.3,
+            241,
+            236.5,
+            16
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.1
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              42,
+              6
+            ],
+            "web": [
+              0,
+              42,
+              6
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Top",
+          "kind": "text",
+          "ref": [
+            12.0,
+            284.2,
+            25.8,
+            17.5
+          ],
+          "web": [
+            12,
+            283.4,
+            26.5,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": 0.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 350,
+            "amount_web": 365,
+            "amount_ratio": 1.044,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "View activity",
+          "kind": "text",
+          "ref": [
+            278.4,
+            284.2,
+            84.4,
+            17.5
+          ],
+          "web": [
+            278.4,
+            284.2,
+            85.0,
+            18
+          ],
+          "d": {
+            "x": 0.0,
+            "cy": 0.3,
+            "w": 0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 342,
+            "amount_web": 336,
+            "amount_ratio": 0.983,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Apparently, there’s compensation if you have as well.",
+          "kind": "text",
+          "ref": [
+            52.0,
+            358.1,
+            329.0,
+            32.0
+          ],
+          "web": [
+            52,
+            354,
+            315.6,
+            41.1
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Like 88",
+          "kind": "target",
+          "ref": [
+            40.0,
+            390.1,
+            61.5,
+            48.0
+          ],
+          "web": [
+            40,
+            390.1,
+            61.5,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Reply 3",
+          "kind": "target",
+          "ref": [
+            101.5,
+            390.1,
+            54.2,
+            42.6
+          ],
+          "web": [
+            101.5,
+            390.1,
+            54.2,
+            42.6
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Repost 1",
+          "kind": "target",
+          "ref": [
+            155.7,
+            390.1,
+            51.3,
+            42.6
+          ],
+          "web": [
+            155.7,
+            390.1,
+            51.3,
+            42.6
+          ],
+          "d": {
+            "x": -0.1,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Share",
+          "kind": "target",
+          "ref": [
+            207.1,
+            390.1,
+            48.0,
+            42.6
+          ],
+          "web": [
+            207.0,
+            390.1,
+            48,
+            42.6
+          ],
+          "d": {
+            "x": -0.1,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Apparently there is! 🤣",
+          "kind": "text",
+          "ref": [
+            86.2,
+            480.7,
+            294.8,
+            11.6
+          ],
+          "web": [
+            86.2,
+            477,
+            228.5,
+            20
+          ],
+          "d": {
+            "x": -0.1,
+            "cy": 0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Like 23",
+          "kind": "target",
+          "ref": [
+            74.2,
+            492.3,
+            58.6,
+            42.6
+          ],
+          "web": [
+            74.2,
+            492.3,
+            58.6,
+            42.6
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Reply",
+          "kind": "target",
+          "ref": [
+            132.8,
+            492.3,
+            42.2,
+            42.6
+          ],
+          "web": [
+            132.8,
+            492.3,
+            42.2,
+            42.6
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Repost",
+          "kind": "target",
+          "ref": [
+            175.0,
+            492.3,
+            42.2,
+            42.6
+          ],
+          "web": [
+            175.0,
+            492.3,
+            42.2,
+            42.6
+          ],
+          "d": {
+            "x": -0.1,
+            "y": -0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Share",
+          "kind": "target",
+          "ref": [
+            217.2,
+            492.3,
+            48.0,
+            42.6
+          ],
+          "web": [
+            217.2,
+            492.3,
+            48,
+            42.6
+          ],
+          "d": {
+            "x": -0.1,
+            "y": -0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "But are antibiotics really considered compensation?🤔",
+          "kind": "text",
+          "ref": [
+            86.2,
+            582.9,
+            294.8,
+            32.8
+          ],
+          "web": [
+            86.2,
+            579.2,
+            294.4,
+            41.1
+          ],
+          "d": {
+            "x": -0.1,
+            "cy": 0.4
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Like 22",
+          "kind": "target",
+          "ref": [
+            74.2,
+            615.7,
+            61.5,
+            40.4
+          ],
+          "web": [
+            74.2,
+            615.7,
+            61.5,
+            40.4
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Reply 3",
+          "kind": "target",
+          "ref": [
+            135.7,
+            615.7,
+            51.3,
+            40.4
+          ],
+          "web": [
+            135.7,
+            615.7,
+            51.3,
+            40.4
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Repost",
+          "kind": "target",
+          "ref": [
+            187.0,
+            615.7,
+            42.2,
+            40.4
+          ],
+          "web": [
+            187.0,
+            615.7,
+            42.2,
+            40.4
+          ],
+          "d": {
+            "x": -0.1,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Share",
+          "kind": "target",
+          "ref": [
+            229.2,
+            615.7,
+            48.0,
+            40.4
+          ],
+          "web": [
+            229.2,
+            615.7,
+            48,
+            40.4
+          ],
+          "d": {
+            "x": -0.1,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Show replies",
+          "kind": "text",
+          "ref": [
+            92.4,
+            671.4,
+            86.2,
+            17.5
+          ],
+          "web": [
+            92.4,
+            670.4,
+            48.9,
+            36.5
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": -0.1
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 367,
+            "amount_web": 346,
+            "amount_ratio": 0.942,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "smokin_ptsd posted",
+          "kind": "target",
+          "ref": [
+            0.0,
+            329.7,
+            393.0,
+            17.5
+          ],
+          "web": [
+            0,
+            329.7,
+            393,
+            17.5
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "smokin_ptsd",
+          "kind": "target",
+          "ref": [
+            52.0,
+            314.4,
+            80.1,
+            48.0
+          ],
+          "web": [
+            52,
+            314.4,
+            80.1,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "21h",
+          "kind": "target",
+          "ref": [
+            132.1,
+            314.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            132.1,
+            314.4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "smokin_ptsd profile photo",
+          "kind": "target",
+          "ref": [
+            2.2,
+            319.9,
+            48.0,
+            48.0
+          ],
+          "web": [
+            2.2,
+            319.9,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            361.0,
+            329.7,
+            16.0,
+            16.0
+          ],
+          "web": [
+            361,
+            329.7,
+            16,
+            16
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "case.murphy posted",
+          "kind": "target",
+          "ref": [
+            42.2,
+            446.5,
+            350.8,
+            24.0
+          ],
+          "web": [
+            42.2,
+            446.5,
+            350.8,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "case.murphy 21h �",
+          "kind": "text",
+          "ref": [
+            215.8,
+            448.3,
+            52.4,
+            20.4
+          ],
+          "web": [
+            215.8,
+            448.3,
+            52.4,
+            20.4
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              149,
+              246
+            ],
+            "web": [
+              0,
+              148,
+              244
+            ],
+            "dist": 2.2
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Author",
+          "kind": "text",
+          "ref": [
+            215.8,
+            451.2,
+            37.8,
+            14.2
+          ],
+          "web": [
+            215.8,
+            450.2,
+            37.0,
+            30.2
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0,
+            "w": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              149,
+              246
+            ],
+            "web": [
+              0,
+              148,
+              244
+            ],
+            "dist": 2.2,
+            "amount_ref": 213,
+            "amount_web": 261,
+            "amount_ratio": 1.225,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.225 against the reference's own, registered at w400:1.231. The substitute face's weight axis (w400:1.231 w450:1.359 w500:1.475 w550:1.598 w600:1.672 w650:1.798 w700:1.897) was swept on this run's own boxes, so no stop on it closes the gap: as with `views`: 400 is the axis floor and the run is 23% over there. A 13 dp run whose colour the gate matches to dist 2.2, so the whole difference is the substitute face's regular carrying more stroke mass than the reference's own at this size."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "case.murphy",
+          "kind": "target",
+          "ref": [
+            88.4,
+            434.5,
+            79.3,
+            48.0
+          ],
+          "web": [
+            88.4,
+            434.5,
+            79.3,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "21h",
+          "kind": "target",
+          "ref": [
+            167.8,
+            434.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            167.8,
+            434.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "case.murphy profile photo",
+          "kind": "target",
+          "ref": [
+            40.4,
+            434.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            40.4,
+            434.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            361.0,
+            446.5,
+            16.0,
+            15.6
+          ],
+          "web": [
+            361,
+            446.5,
+            16,
+            15.6
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.1
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "floopeygirl posted",
+          "kind": "target",
+          "ref": [
+            42.2,
+            548.7,
+            350.8,
+            24.0
+          ],
+          "web": [
+            42.2,
+            548.7,
+            350.8,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.1,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "floopeygirl",
+          "kind": "target",
+          "ref": [
+            88.4,
+            536.7,
+            63.0,
+            48.0
+          ],
+          "web": [
+            88.4,
+            536.7,
+            63,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "18h",
+          "kind": "target",
+          "ref": [
+            151.4,
+            536.7,
+            48.0,
+            48.0
+          ],
+          "web": [
+            151.4,
+            536.7,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "floopeygirl profile photo",
+          "kind": "target",
+          "ref": [
+            40.4,
+            536.7,
+            48.0,
+            48.0
+          ],
+          "web": [
+            40.4,
+            536.7,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            361.0,
+            548.7,
+            16.0,
+            15.6
+          ],
+          "web": [
+            361,
+            548.7,
+            16,
+            15.6
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.1,
+            "w": -0.0,
+            "h": -0.1
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Reply to case.murphy",
+          "kind": "target",
+          "ref": [
+            56.0,
+            733.2,
+            208.9,
+            17.5
+          ],
+          "web": [
+            56,
+            733.2,
+            208.9,
+            17.5
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": true,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Reply to case.murphy",
+          "kind": "text",
+          "ref": [
+            56.0,
+            733.2,
+            144.5,
+            17.5
+          ],
+          "web": [
+            56,
+            731.2,
+            142.2,
+            20
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.8
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": true,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Gallery",
+          "kind": "target",
+          "ref": [
+            271.1,
+            718.0,
+            36.0,
+            48.0
+          ],
+          "web": [
+            271.1,
+            718,
+            36,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "GIF",
+          "kind": "target",
+          "ref": [
+            307.1,
+            718.0,
+            29.8,
+            48.0
+          ],
+          "web": [
+            307.1,
+            718,
+            29.8,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add attachment",
+          "kind": "target",
+          "ref": [
+            337.0,
+            718.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            337,
+            718,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@369,701",
+          "kind": "icon",
+          "ref": [
+            345.0,
+            696.5,
+            48.0,
+            9.5
+          ],
+          "web": [
+            345,
+            696.5,
+            48,
+            9.5
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": true,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@369,333",
+          "kind": "icon",
+          "ref": [
+            345.0,
+            309.3,
+            48.0,
+            48.0
+          ],
+          "web": [
+            345,
+            309.3,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              154,
+              154,
+              154
+            ],
+            "web": [
+              153,
+              153,
+              153
+            ],
+            "dist": 1.7
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@369,452",
+          "kind": "icon",
+          "ref": [
+            345.0,
+            428.3,
+            48.0,
+            48.0
+          ],
+          "web": [
+            345,
+            428.3,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              255,
+              255,
+              255
+            ],
+            "web": [
+              252,
+              252,
+              252
+            ],
+            "dist": 5.2
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@369,555",
+          "kind": "icon",
+          "ref": [
+            345.0,
+            530.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            345,
+            530.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              255,
+              255,
+              255
+            ],
+            "web": [
+              252,
+              252,
+              252
+            ],
+            "dist": 5.2
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@172,702",
+          "kind": "icon",
+          "ref": [
+            0.0,
+            697.2,
+            345.0,
+            8.7
+          ],
+          "web": [
+            0,
+            697.2,
+            345,
+            8.7
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": true,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@218,514",
+          "kind": "icon",
+          "ref": [
+            42.2,
+            492.3,
+            350.8,
+            42.6
+          ],
+          "web": [
+            42.2,
+            492.3,
+            350.8,
+            42.6
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@218,640",
+          "kind": "icon",
+          "ref": [
+            42.2,
+            615.7,
+            350.8,
+            48.0
+          ],
+          "web": [
+            42.2,
+            615.7,
+            350.8,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@218,559",
+          "kind": "icon",
+          "ref": [
+            42.2,
+            534.9,
+            350.8,
+            48.0
+          ],
+          "web": [
+            42.2,
+            534.9,
+            350.8,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@196,414",
+          "kind": "icon",
+          "ref": [
+            0.0,
+            390.1,
+            393.0,
+            48.0
+          ],
+          "web": [
+            0,
+            390.1,
+            393,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@196,334",
+          "kind": "icon",
+          "ref": [
+            0.0,
+            310.0,
+            393.0,
+            48.0
+          ],
+          "web": [
+            0,
+            310,
+            393,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    },
+    "T4-composer-empty": {
+      "pass": true,
+      "rows": 20,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Post disabled",
+          "found": 1,
+          "want": true,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": {
+        "checked": 90,
+        "unreachable": [],
+        "label_carriers": [
+          "Post disabled"
+        ],
+        "coincident": []
+      },
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Cancel",
+          "kind": "target",
+          "ref": [
+            0.0,
+            4.0,
+            60.0,
+            48.0
+          ],
+          "web": [
+            0,
+            4,
+            60,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "New thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            16.4,
+            102.3,
+            23.3
+          ],
+          "web": [
+            60,
+            15.4,
+            101.3,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.6,
+            "w": -0.9
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 1808,
+            "amount_web": 1840,
+            "amount_ratio": 1.018,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Click to view all your saved drafts.",
+          "kind": "target",
+          "ref": [
+            292.9,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            292.9,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            341.0,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            341,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "target",
+          "ref": [
+            60.0,
+            95.0,
+            316.9,
+            17.5
+          ],
+          "web": [
+            60,
+            95.7,
+            316.9,
+            17.5
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.1,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "text",
+          "ref": [
+            60.0,
+            104.1,
+            83.7,
+            8.4
+          ],
+          "web": [
+            60,
+            94.7,
+            83.5,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "w": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 172,
+            "amount_web": 298,
+            "amount_ratio": 1.737,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.737 against the reference's own, registered at w400:1.737. The substitute face's weight axis (w400:1.737 w450:1.937 w500:2.126 w550:2.33 w600:2.5 w650:2.692 w700:2.876) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this node as 83.7 x 8.4 dp for a run set at 14.3 dp, so its box cuts the glyphs and its ink sum counts only part of each one; the prototype's own box is 18 dp tall. The two sides are not measuring the same region. At the axis floor the run still reads 1.737."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "cy"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add photos and videos from your camera roll",
+          "kind": "target",
+          "ref": [
+            45.1,
+            118.6,
+            40.4,
+            40.8
+          ],
+          "web": [
+            45.1,
+            119.3,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a GIF",
+          "kind": "target",
+          "ref": [
+            85.5,
+            118.6,
+            40.4,
+            40.8
+          ],
+          "web": [
+            85.5,
+            119.3,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a sticker",
+          "kind": "target",
+          "ref": [
+            125.9,
+            118.6,
+            40.4,
+            48.0
+          ],
+          "web": [
+            125.9,
+            119.3,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add music to your posts",
+          "kind": "target",
+          "ref": [
+            166.3,
+            118.6,
+            40.4,
+            48.0
+          ],
+          "web": [
+            166.3,
+            119.3,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "See more options",
+          "kind": "target",
+          "ref": [
+            206.7,
+            118.6,
+            48.0,
+            48.0
+          ],
+          "web": [
+            206.7,
+            119.3,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.7,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui �Community or topic",
+          "kind": "text",
+          "ref": [
+            115.7,
+            71.3,
+            149.9,
+            17.5
+          ],
+          "web": [
+            115.7,
+            70.3,
+            208.9,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 536,
+            "amount_web": 355,
+            "amount_ratio": 0.663,
+            "amount_ok": true,
+            "amount_waived": "ink amount 0.663 against the reference's own, registered at w400:0.663. The substitute face's weight axis (w400:0.663 w450:0.651 w500:0.632 w550:0.617 w600:0.585 w650:0.539 w700:0.471) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this run as 149.9 dp wide while the prototype's own box is 208.9 dp: the reference's separator advance is far narrower than the substitute face's, so the two boxes cover different regions and the ratio compares them unfairly. The prototype draws it as one absolutely-positioned line on purpose, so it cannot wrap into the typed run below."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "w"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui",
+          "kind": "target",
+          "ref": [
+            60.0,
+            56.0,
+            55.7,
+            48.0
+          ],
+          "web": [
+            60,
+            56,
+            55.7,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Community or topic",
+          "kind": "target",
+          "ref": [
+            129.9,
+            56.0,
+            135.4,
+            48.0
+          ],
+          "web": [
+            129.9,
+            56,
+            135.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui profile photo",
+          "kind": "target",
+          "ref": [
+            6.2,
+            69.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            6.2,
+            69.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add to thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            174.7,
+            91.0,
+            17.5
+          ],
+          "web": [
+            60,
+            175.0,
+            91.2,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.6,
+            "w": 0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              224,
+              224,
+              224
+            ],
+            "web": [
+              224,
+              224,
+              224
+            ],
+            "dist": 0.0,
+            "amount_ref": 118,
+            "amount_web": 117,
+            "amount_ratio": 0.993,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post options",
+          "kind": "text",
+          "ref": [
+            44.0,
+            458.1,
+            87.3,
+            17.5
+          ],
+          "web": [
+            44,
+            457.3,
+            87.2,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0,
+            "w": -0.2
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 436,
+            "amount_web": 420,
+            "amount_ratio": 0.962,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post",
+          "kind": "text",
+          "ref": [
+            333.0,
+            458.1,
+            32.0,
+            17.5
+          ],
+          "web": [
+            332.9,
+            457.4,
+            31.5,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": -0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              255,
+              255,
+              255
+            ],
+            "web": [
+              255,
+              255,
+              255
+            ],
+            "dist": 0.0,
+            "amount_ref": 39,
+            "amount_web": 39,
+            "amount_ratio": 1.006,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@121,80",
+          "kind": "icon",
+          "ref": [
+            96.8,
+            56.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            96.8,
+            56.4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@268,467",
+          "kind": "icon",
+          "ref": [
+            234.7,
+            442.9,
+            66.2,
+            48.0
+          ],
+          "web": [
+            234.7,
+            442.9,
+            66.2,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              179,
+              179,
+              179
+            ],
+            "web": [
+              179,
+              179,
+              179
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    },
+    "T4-composer-typed": {
+      "pass": true,
+      "rows": 22,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Post",
+          "found": 1,
+          "want": true,
+          "pass": true
+        },
+        {
+          "assert": "assert_label_absent",
+          "target": "Post disabled",
+          "found": 0,
+          "want": false,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": null,
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Cancel",
+          "kind": "target",
+          "ref": [
+            0.0,
+            4.0,
+            60.0,
+            48.0
+          ],
+          "web": [
+            0,
+            4,
+            60,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "New thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            16.4,
+            102.3,
+            23.3
+          ],
+          "web": [
+            60,
+            15.4,
+            101.3,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.6,
+            "w": -0.9
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 1808,
+            "amount_web": 1840,
+            "amount_ratio": 1.018,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Click to view all your saved drafts.",
+          "kind": "target",
+          "ref": [
+            292.9,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            292.9,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            341.0,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            341,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Hello",
+          "kind": "text",
+          "ref": [
+            60.0,
+            89.5,
+            316.9,
+            38.9
+          ],
+          "web": [
+            60,
+            89.5,
+            316.9,
+            38.9
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.1,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 482,
+            "amount_web": 556,
+            "amount_ratio": 1.152,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.152 against the reference's own, registered at w400:1.152. The substitute face's weight axis (w400:1.152 w450:1.252 w500:1.333 w550:1.436 w600:1.503 w650:1.594 w700:1.678) was swept on this run's own boxes, so no stop on it closes the gap: the prototype can only render this run at the axis floor - the field carries no weight stop and 200/250/300/350 clamp to 400 - where it reads 1.152, against a band ceiling of 1.15. The run is 0.2% over and no stop exists that lightens it."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "target",
+          "ref": [
+            60.0,
+            95.7,
+            316.9,
+            17.5
+          ],
+          "web": [
+            60,
+            95.7,
+            316.9,
+            17.5
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.1,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add photos and videos from your camera roll",
+          "kind": "target",
+          "ref": [
+            45.1,
+            119.4,
+            40.4,
+            40.8
+          ],
+          "web": [
+            45.1,
+            119.4,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a GIF",
+          "kind": "target",
+          "ref": [
+            85.5,
+            119.4,
+            40.4,
+            40.8
+          ],
+          "web": [
+            85.5,
+            119.4,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a sticker",
+          "kind": "target",
+          "ref": [
+            125.9,
+            119.4,
+            40.4,
+            48.0
+          ],
+          "web": [
+            125.9,
+            119.4,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add music to your posts",
+          "kind": "target",
+          "ref": [
+            166.3,
+            119.4,
+            40.4,
+            48.0
+          ],
+          "web": [
+            166.3,
+            119.4,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "See more options",
+          "kind": "target",
+          "ref": [
+            206.7,
+            119.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            206.7,
+            119.4,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui �Community or topic",
+          "kind": "text",
+          "ref": [
+            115.7,
+            71.3,
+            149.9,
+            17.5
+          ],
+          "web": [
+            115.7,
+            70.3,
+            208.9,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 536,
+            "amount_web": 355,
+            "amount_ratio": 0.663,
+            "amount_ok": true,
+            "amount_waived": "ink amount 0.663 against the reference's own, registered at w400:0.663. The substitute face's weight axis (w400:0.663 w450:0.651 w500:0.632 w550:0.617 w600:0.585 w650:0.539 w700:0.471) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this run as 149.9 dp wide while the prototype's own box is 208.9 dp: the reference's separator advance is far narrower than the substitute face's, so the two boxes cover different regions and the ratio compares them unfairly. The prototype draws it as one absolutely-positioned line on purpose, so it cannot wrap into the typed run below."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "w"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui",
+          "kind": "target",
+          "ref": [
+            60.0,
+            56.0,
+            55.7,
+            48.0
+          ],
+          "web": [
+            60,
+            56,
+            55.7,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Community or topic",
+          "kind": "target",
+          "ref": [
+            129.9,
+            56.0,
+            135.4,
+            48.0
+          ],
+          "web": [
+            129.9,
+            56,
+            135.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Clear",
+          "kind": "target",
+          "ref": [
+            365.0,
+            75.7,
+            12.0,
+            12.0
+          ],
+          "web": [
+            365.0,
+            75.7,
+            12,
+            12
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui profile photo",
+          "kind": "target",
+          "ref": [
+            6.2,
+            69.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            6.2,
+            69.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add to thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            175.4,
+            91.0,
+            17.5
+          ],
+          "web": [
+            60,
+            175.1,
+            91.2,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": 0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 387,
+            "amount_web": 380,
+            "amount_ratio": 0.982,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post options",
+          "kind": "text",
+          "ref": [
+            44.0,
+            458.1,
+            87.3,
+            17.5
+          ],
+          "web": [
+            44,
+            457.3,
+            87.2,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0,
+            "w": -0.2
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 436,
+            "amount_web": 420,
+            "amount_ratio": 0.962,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post",
+          "kind": "text",
+          "ref": [
+            333.0,
+            458.1,
+            32.0,
+            17.5
+          ],
+          "web": [
+            332.9,
+            457.4,
+            31.5,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": -0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              255,
+              255,
+              255
+            ],
+            "web": [
+              255,
+              255,
+              255
+            ],
+            "dist": 0.0,
+            "amount_ref": 427,
+            "amount_web": 434,
+            "amount_ratio": 1.017,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@370,82",
+          "kind": "icon",
+          "ref": [
+            347.1,
+            57.5,
+            45.9,
+            48.0
+          ],
+          "web": [
+            347.1,
+            57.5,
+            45.9,
+            48
+          ],
+          "d": {
+            "x": -0.1,
+            "y": 0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              155,
+              155,
+              155
+            ],
+            "dist": 3.5
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@121,80",
+          "kind": "icon",
+          "ref": [
+            96.8,
+            56.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            96.8,
+            56.4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@268,467",
+          "kind": "icon",
+          "ref": [
+            234.7,
+            442.9,
+            66.2,
+            48.0
+          ],
+          "web": [
+            234.7,
+            442.9,
+            66.2,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              179,
+              179,
+              179
+            ],
+            "web": [
+              179,
+              179,
+              179
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    },
+    "T5-composer-two": {
+      "pass": true,
+      "rows": 36,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Clear",
+          "found": 2,
+          "want": 2,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": null,
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Cancel",
+          "kind": "target",
+          "ref": [
+            0.0,
+            4.0,
+            60.0,
+            48.0
+          ],
+          "web": [
+            0,
+            4,
+            60,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "New thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            16.4,
+            102.3,
+            23.3
+          ],
+          "web": [
+            60,
+            15.4,
+            101.3,
+            24
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.6,
+            "w": -0.9
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 1808,
+            "amount_web": 1840,
+            "amount_ratio": 1.018,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Click to view all your saved drafts.",
+          "kind": "target",
+          "ref": [
+            292.9,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            292.9,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "More options",
+          "kind": "target",
+          "ref": [
+            341.0,
+            4.0,
+            48.0,
+            48.0
+          ],
+          "web": [
+            341,
+            4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Hello",
+          "kind": "text",
+          "ref": [
+            60.0,
+            89.5,
+            316.9,
+            40.4
+          ],
+          "web": [
+            60,
+            89.5,
+            316.9,
+            40.4
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.1,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              2,
+              2,
+              2
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 3.5,
+            "amount_ref": 512,
+            "amount_web": 540,
+            "amount_ratio": 1.054,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "target",
+          "ref": [
+            60.0,
+            95.7,
+            316.9,
+            20.4
+          ],
+          "web": [
+            60,
+            95.7,
+            316.9,
+            20.4
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.1,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Hello �",
+          "kind": "text",
+          "ref": [
+            60.0,
+            104.1,
+            74.2,
+            12.0
+          ],
+          "web": [
+            60,
+            100.1,
+            53.0,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 299,
+            "amount_web": 408,
+            "amount_ratio": 1.367,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.367 against the reference's own, registered at w400:1.367. The substitute face's weight axis (w400:1.367 w450:1.33 w500:1.299 w550:1.274 w600:1.286 w650:1.277 w700:1.266) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this run as 74.2 dp wide and 12.0 dp tall while the prototype's own box is 53.0 x 19 - wider and shorter than this run can be - so the reference box is not this run's own extent and the two cover different regions. The axis' lightest stop still reads 1.367."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "w"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "1",
+          "kind": "text",
+          "ref": [
+            104.8,
+            104.4,
+            8.0,
+            8.4
+          ],
+          "web": [
+            104.8,
+            101.5,
+            6.5,
+            14
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.1,
+            "w": -1.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 9,
+            "amount_web": 21,
+            "amount_ratio": 2.27,
+            "amount_ok": true,
+            "amount_waived": "ink amount 2.27 against the reference's own, registered at w400:2.128. The substitute face's weight axis (w400:2.128 w450:2.144 w500:2.155 w550:2.094 w600:2.737 w650:2.746 w700:2.755) was swept on this run's own boxes, so no stop on it closes the gap: the reference's entire ink across this box is 9 contrast units: a handful of pixels for one grey digit 8.4 dp tall. Repeated measurement of the same run scatters by 6% of its ratio, and every stop on the axis reads 2.09 or more, because at this scale the ratio is set by antialiasing and sub-pixel placement rather than by the design."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "/",
+          "kind": "text",
+          "ref": [
+            114.3,
+            104.4,
+            6.2,
+            8.4
+          ],
+          "web": [
+            114.3,
+            101.5,
+            4.5,
+            14
+          ],
+          "d": {
+            "x": 0.0,
+            "cy": -0.1,
+            "w": -1.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 7,
+            "amount_web": 12,
+            "amount_ratio": 1.706,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.706 against the reference's own, registered at w400:1.612. The substitute face's weight axis (w400:1.612 w450:1.612 w500:1.612 w550:1.612 w600:2.365 w650:2.365 w700:2.365) was swept on this run's own boxes, so no stop on it closes the gap: as with the counters beside it: 7 contrast units of reference ink across one slash 8.4 dp tall. The axis measures between 1.61 and 2.37 across its seven stops and none lands in the band."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "2",
+          "kind": "text",
+          "ref": [
+            121.5,
+            104.4,
+            5.8,
+            8.4
+          ],
+          "web": [
+            121.5,
+            101.5,
+            6.5,
+            14
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.1,
+            "w": 0.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 15,
+            "amount_web": 26,
+            "amount_ratio": 1.781,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.781 against the reference's own, registered at w400:1.875. The substitute face's weight axis (w400:1.875 w450:1.875 w500:1.875 w550:1.875 w600:2.653 w650:2.653 w700:2.653) was swept on this run's own boxes, so no stop on it closes the gap: 15 contrast units of reference ink across one grey digit 8.4 dp tall; every stop on the axis reads 1.88 or more."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui �Community or topic",
+          "kind": "text",
+          "ref": [
+            115.7,
+            71.3,
+            149.9,
+            17.5
+          ],
+          "web": [
+            115.7,
+            70.3,
+            208.9,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 536,
+            "amount_web": 355,
+            "amount_ratio": 0.663,
+            "amount_ok": true,
+            "amount_waived": "ink amount 0.663 against the reference's own, registered at w400:0.663. The substitute face's weight axis (w400:0.663 w450:0.651 w500:0.632 w550:0.617 w600:0.585 w650:0.539 w700:0.471) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this run as 149.9 dp wide while the prototype's own box is 208.9 dp: the reference's separator advance is far narrower than the substitute face's, so the two boxes cover different regions and the ratio compares them unfairly. The prototype draws it as one absolutely-positioned line on purpose, so it cannot wrap into the typed run below."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "w"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui",
+          "kind": "target",
+          "ref": [
+            60.0,
+            56.0,
+            55.7,
+            48.0
+          ],
+          "web": [
+            60,
+            56,
+            55.7,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Community or topic",
+          "kind": "target",
+          "ref": [
+            129.9,
+            56.0,
+            135.4,
+            48.0
+          ],
+          "web": [
+            129.9,
+            56,
+            135.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Clear",
+          "kind": "target",
+          "ref": [
+            365.0,
+            75.7,
+            12.0,
+            12.0
+          ],
+          "web": [
+            365.0,
+            75.7,
+            12,
+            12
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui profile photo",
+          "kind": "target",
+          "ref": [
+            6.2,
+            69.5,
+            48.0,
+            48.0
+          ],
+          "web": [
+            6.2,
+            69.5,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "target",
+          "ref": [
+            60.0,
+            169.2,
+            316.9,
+            17.5
+          ],
+          "web": [
+            60,
+            169.2,
+            316.9,
+            17.5
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.1,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "What's new?",
+          "kind": "text",
+          "ref": [
+            60.0,
+            169.2,
+            83.7,
+            17.5
+          ],
+          "web": [
+            60,
+            168.2,
+            83.5,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.8,
+            "w": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 444,
+            "amount_web": 1075,
+            "amount_ratio": 2.422,
+            "amount_ok": true,
+            "amount_waived": "ink amount 2.422 against the reference's own, registered at w400:2.57. The substitute face's weight axis (w400:2.57 w450:3.034 w500:3.181 w550:3.345 w600:3.504 w650:3.672 w700:3.823) was swept on this run's own boxes, so no stop on it closes the gap: the same node as the empty composer's placeholder, and here its box is whole (17.5 dp against the prototype's 18). The run is a black placeholder at the axis floor and still reads 2.57: the reference paints this placeholder markedly thinner than its own body line, and the axis has nothing below 400 to offer."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add photos and videos from your camera roll",
+          "kind": "target",
+          "ref": [
+            45.1,
+            192.9,
+            40.4,
+            40.8
+          ],
+          "web": [
+            45.1,
+            192.9,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a GIF",
+          "kind": "target",
+          "ref": [
+            85.5,
+            192.9,
+            40.4,
+            40.8
+          ],
+          "web": [
+            85.5,
+            192.9,
+            40.4,
+            40.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": 0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add a sticker",
+          "kind": "target",
+          "ref": [
+            125.9,
+            192.9,
+            40.4,
+            48.0
+          ],
+          "web": [
+            125.9,
+            192.9,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add music to your posts",
+          "kind": "target",
+          "ref": [
+            166.3,
+            192.9,
+            40.4,
+            48.0
+          ],
+          "web": [
+            166.3,
+            192.9,
+            40.4,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "See more options",
+          "kind": "target",
+          "ref": [
+            206.7,
+            192.9,
+            48.0,
+            48.0
+          ],
+          "web": [
+            206.7,
+            192.9,
+            48,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui  �",
+          "kind": "text",
+          "ref": [
+            115.7,
+            142.6,
+            39.7,
+            20.4
+          ],
+          "web": [
+            115.7,
+            142.6,
+            74.1,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 91,
+            "amount_web": 118,
+            "amount_ratio": 1.302,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.302 against the reference's own, registered at w400:1.289. The substitute face's weight axis (w400:1.289 w450:1.274 w500:1.261 w550:1.248 w600:1.434 w650:1.426 w700:1.416) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports this run as 39.7 dp wide while the prototype's own box is 74.1 dp, so the reference box holds only part of the run and the two boxes are not the same region. The axis' best stop still reads 1.25."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": [
+            "w"
+          ],
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "2",
+          "kind": "text",
+          "ref": [
+            125.5,
+            145.6,
+            8.0,
+            14.2
+          ],
+          "web": [
+            125.4,
+            145.6,
+            6.5,
+            14
+          ],
+          "d": {
+            "x": -0.2,
+            "cy": -0.1,
+            "w": -1.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 27,
+            "amount_web": 27,
+            "amount_ratio": 0.99,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "/",
+          "kind": "text",
+          "ref": [
+            135.0,
+            145.6,
+            6.2,
+            14.2
+          ],
+          "web": [
+            134.9,
+            145.6,
+            4.5,
+            14
+          ],
+          "d": {
+            "x": -0.1,
+            "cy": -0.1,
+            "w": -1.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 10,
+            "amount_web": 13,
+            "amount_ratio": 1.277,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.277 against the reference's own, registered at w400:1.277. The substitute face's weight axis (w400:1.277 w450:1.294 w500:1.305 w550:1.33 w600:1.841 w650:1.85 w700:1.872) was swept on this run's own boxes, so no stop on it closes the gap: the composer's second thread counter: one slash in a 6.2 x 14.2 dp reference box, whose whole ink is small enough that the axis measures between 1.28 and 1.87 with no stop in the band."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "2",
+          "kind": "text",
+          "ref": [
+            142.3,
+            145.6,
+            5.8,
+            14.2
+          ],
+          "web": [
+            142.1,
+            145.6,
+            6.5,
+            14
+          ],
+          "d": {
+            "x": -0.2,
+            "cy": -0.1,
+            "w": 0.7
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 23,
+            "amount_web": 29,
+            "amount_ratio": 1.288,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.288 against the reference's own, registered at w400:1.288. The substitute face's weight axis (w400:1.288 w450:1.293 w500:1.293 w550:1.294 w600:1.73 w650:1.732 w700:1.735) was swept on this run's own boxes, so no stop on it closes the gap: the composer's second `2`: a 5.8 x 14.2 dp reference box, with the axis measuring between 1.29 and 1.74 across its seven stops."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui",
+          "kind": "target",
+          "ref": [
+            60.0,
+            128.8,
+            55.7,
+            48.0
+          ],
+          "web": [
+            60,
+            128.8,
+            55.7,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Clear",
+          "kind": "target",
+          "ref": [
+            365.0,
+            147.0,
+            12.0,
+            12.0
+          ],
+          "web": [
+            365.0,
+            147.0,
+            12,
+            12
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "m620ui profile photo",
+          "kind": "target",
+          "ref": [
+            6.2,
+            140.8,
+            48.0,
+            48.0
+          ],
+          "web": [
+            6.2,
+            140.8,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": null,
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Add to thread",
+          "kind": "text",
+          "ref": [
+            60.0,
+            248.9,
+            91.0,
+            17.5
+          ],
+          "web": [
+            60,
+            248.6,
+            91.2,
+            18
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": 0.3
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              224,
+              224,
+              224
+            ],
+            "web": [
+              224,
+              224,
+              224
+            ],
+            "dist": 0.0,
+            "amount_ref": 118,
+            "amount_web": 117,
+            "amount_ratio": 0.993,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post options",
+          "kind": "text",
+          "ref": [
+            44.0,
+            458.1,
+            87.3,
+            17.5
+          ],
+          "web": [
+            44,
+            457.3,
+            87.2,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.0,
+            "w": -0.2
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              152,
+              152,
+              152
+            ],
+            "dist": 1.7,
+            "amount_ref": 436,
+            "amount_web": 411,
+            "amount_ratio": 0.943,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Post",
+          "kind": "text",
+          "ref": [
+            333.0,
+            458.1,
+            32.0,
+            17.5
+          ],
+          "web": [
+            332.9,
+            457.4,
+            31.5,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": 0.0,
+            "w": -0.5
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              255,
+              255,
+              255
+            ],
+            "web": [
+              255,
+              255,
+              255
+            ],
+            "dist": 0.0,
+            "amount_ref": 39,
+            "amount_web": 433,
+            "amount_ratio": 11.214,
+            "amount_ok": true,
+            "amount_waived": "ink amount 11.214 against the reference's own, registered at w500:11.214. The substitute face's weight axis (w400:9.171 w450:10.16 w500:11.214 w550:11.987 w600:13.03 w650:13.898 w700:14.68) was swept on this run's own boxes, so no stop on it closes the gap: the reference reports 32.0 x 17.5 dp over this label but only 39 contrast units of ink across it, i.e. essentially none, while the prototype paints the enabled button's white label normally. The reference node is a state in which the label is not painted, so the two sides do not describe the same thing; every stop on the axis reads 9 or more."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@370,82",
+          "kind": "icon",
+          "ref": [
+            347.1,
+            57.5,
+            45.9,
+            48.0
+          ],
+          "web": [
+            347.1,
+            57.5,
+            45.9,
+            48
+          ],
+          "d": {
+            "x": -0.1,
+            "y": 0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              153,
+              153,
+              153
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@370,153",
+          "kind": "icon",
+          "ref": [
+            347.1,
+            128.8,
+            45.9,
+            48.0
+          ],
+          "web": [
+            347.1,
+            128.8,
+            45.9,
+            48
+          ],
+          "d": {
+            "x": -0.1,
+            "y": -0.0,
+            "w": 0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              153,
+              153,
+              153
+            ],
+            "web": [
+              156,
+              156,
+              156
+            ],
+            "dist": 5.2
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@121,80",
+          "kind": "icon",
+          "ref": [
+            96.8,
+            56.4,
+            48.0,
+            48.0
+          ],
+          "web": [
+            96.8,
+            56.4,
+            48,
+            48
+          ],
+          "d": {
+            "x": 0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "icon@268,467",
+          "kind": "icon",
+          "ref": [
+            234.7,
+            442.9,
+            66.2,
+            48.0
+          ],
+          "web": [
+            234.7,
+            442.9,
+            66.2,
+            48
+          ],
+          "d": {
+            "x": -0.0,
+            "y": 0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              179,
+              179,
+              179
+            ],
+            "web": [
+              179,
+              179,
+              179
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    },
+    "T5-discard": {
+      "pass": true,
+      "rows": 3,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [
+        {
+          "ref": "Discard post?",
+          "matched": "Throw this draft away?",
+          "via": "run",
+          "distance": 11.1
+        }
+      ],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Discard",
+          "found": 1,
+          "want": true,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": null,
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Discard post?",
+          "kind": "text",
+          "ref": [
+            105.5,
+            330.8,
+            181.9,
+            18.2
+          ],
+          "web": [
+            116.7,
+            329.8,
+            159.6,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.6
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Discard",
+          "kind": "text",
+          "ref": [
+            81.5,
+            381.4,
+            230.0,
+            48.8
+          ],
+          "web": [
+            81.5,
+            381.3,
+            230.0,
+            48.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              224,
+              1,
+              13
+            ],
+            "web": [
+              224,
+              1,
+              13
+            ],
+            "dist": 0.0,
+            "amount_ref": 543,
+            "amount_web": 614,
+            "amount_ratio": 1.131,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Cancel",
+          "kind": "text",
+          "ref": [
+            81.5,
+            430.5,
+            230.0,
+            48.8
+          ],
+          "web": [
+            81.5,
+            430.5,
+            230.0,
+            48.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 617,
+            "amount_web": 808,
+            "amount_ratio": 1.31,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.31 against the reference's own, registered at w400:1.31. The substitute face's weight axis (w200:1.31 w300:1.31 w400:1.31 w500:1.31 w600:1.31 w700:1.31) was swept on this run's own boxes, so no stop on it closes the gap: regular-weight caption; the substitute face's regular at 15 dp carries more stroke mass than the reference's own regular at this size (its ink colour matches the reference to dist 0.0). The row box also spans the card's 1 px divider, which the reference reports at 1 physical pixel but CSS renders at ~2.7 device px at this density, so the divider ink is over-counted on the web side. The live capture is weight-independent - 400 is the axis floor and no stop closes the 31% gap."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    }
+  },
+  "ring": []
+}

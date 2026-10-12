@@ -1,0 +1,6 @@
+bundle e0de0795c0dadc6cf7587003fc397c50 (sha 2521ac1d14d96e56)  src 21f269deddd7898c (17 inputs)  spec 54a54b3652e3a0b6  ref 225abf726bb47deb (71 frames)  dist b4a055d088f8eb48 (13 files)  tool cbc6798af4555f4d  tol +/-2.0dp  ink <=40  ALL_PASS=False
+PASS T5-discard: 3/3 rows, missing 0, extra 0
+    ink amount ratio: 1/2 text runs within 0.9-1.15; 1 registered as deviations (worst 1.31 on 'Cancel')
+    ~ content 'Discard post?' -> 'Throw this draft away?' via run (centres 11.1 dp apart)
+    ~ assert_label 'Discard' want True found 1
+    ~ ink amount ratio 1.31 registered as a deviation on 'Cancel' (ref 617k web 808k): ink amount 1.31 against the reference's own, registered at w400:1.31. The substitute face's weight axis (w200:1.31 w300:1.31 w400:1.31 w500:1.31 w600:1.31 w700:1.31) was swept on this run's own boxes, so no stop on it closes the gap: regular-weight caption; the substitute face's regular at 15 dp carries more stroke mass than the reference's own regular at this size (its ink colour matches the reference to dist 0.0). The row box also spans the card's 1 px divider, which the reference reports at 1 physical pixel but CSS renders at ~2.7 device px at this density, so the divider ink is over-counted on the web side. The live capture is weight-independent - 400 is the axis floor and no stop closes the 31% gap.

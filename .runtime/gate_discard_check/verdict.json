@@ -1,0 +1,257 @@
+{
+  "bundle": "e0de0795c0dadc6cf7587003fc397c50",
+  "bundle_sha": "2521ac1d14d96e56",
+  "served_bundle": "e0de0795c0dadc6cf7587003fc397c50",
+  "src_sha": "21f269deddd7898c",
+  "spec_sha": "54a54b3652e3a0b6",
+  "dist_newer_than_src": true,
+  "reference_sha": "225abf726bb47deb",
+  "reference_files": 71,
+  "assets_sha": "b4a055d088f8eb48",
+  "assets_files": 13,
+  "tool_sha": "cbc6798af4555f4da3c4d850f30457ea8eb27d7c68f681a8c432091da54dbc89",
+  "inputs": [
+    {
+      "path": "spec/gate.json",
+      "sha256": "a31361ab19e7b7d9f0fae8efa6d8d8ff22070af979762bb5ddce0a23ae9edb67"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "949f443e8bc17f83120871fe3d7891d56f1aca50b49779a24513aa915d57f62a"
+    },
+    {
+      "path": "src/components/ActivityScreen.tsx",
+      "sha256": "d3b50e7a5e13532a2fcb33e88a87d8f2c42072214cf89f0b2863f3c2a939e540"
+    },
+    {
+      "path": "src/components/Chrome.tsx",
+      "sha256": "f4ffb6b26fbb34de4c0d09f42f6aa525ed938d05dbee516fc9edc11c272bb23c"
+    },
+    {
+      "path": "src/components/Composer.tsx",
+      "sha256": "114c625b6d45dd1ca8a6330468c43a502888aaf5e2acbc0e337fdb597b03aaa5"
+    },
+    {
+      "path": "src/components/FeedScreen.tsx",
+      "sha256": "0ad574d814ba84c281de5fb9d0f5ade5a4484607bfc3f1b1341d23fc7e39d89a"
+    },
+    {
+      "path": "src/components/Icons.tsx",
+      "sha256": "6530f1eeaf7ca3d5c5de3f743f53090b8e7438fda91a717b1e291ec142ddb0a5"
+    },
+    {
+      "path": "src/components/LoginScreen.tsx",
+      "sha256": "d490b3f5bc4d2b5f34fd9c63dd53cd263be26d9b27466b0cf0425eacbd13dbb0"
+    },
+    {
+      "path": "src/components/MessagesScreen.tsx",
+      "sha256": "74799387fc84ceddb948a358915f87a3d09104da49f8e9ffbbd0bf5fbe491194"
+    },
+    {
+      "path": "src/components/ProfileScreen.tsx",
+      "sha256": "5c285d5edc405fe4f0eaed25578548f10f9df0fff531a4baba16c4c65387e9ce"
+    },
+    {
+      "path": "src/components/SearchScreen.tsx",
+      "sha256": "1b37c02a26ec4bd4aa6649dd4dc8c6534574137078bb95617fff274509f86a4a"
+    },
+    {
+      "path": "src/components/ThreadDetail.tsx",
+      "sha256": "8f05af16bb56e8e0621bead4324494034ac18c10f5d9df5b311718817b97bc9d"
+    },
+    {
+      "path": "src/data.ts",
+      "sha256": "597fd7d7f4995b022eb6e7649f96bf35ac303e55829a4b6f0189e784b6c560ea"
+    },
+    {
+      "path": "src/declarations.d.ts",
+      "sha256": "509e2496a7b348ae3060bcafb94b0822f35da7f038ec5c3b5adf7ba8af03ad64"
+    },
+    {
+      "path": "src/layout.ts",
+      "sha256": "b0f9058c577ad8c8b0f6c114a5898b2b38d79bbed74f4bed69dfea0a526c1846"
+    },
+    {
+      "path": "src/tokens.ts",
+      "sha256": "4259b7c11720be75ded3d4b6e9adbcb889afbb31e4cbb94a3939ec655a786c1d"
+    },
+    {
+      "path": "src/webfont.ts",
+      "sha256": "33737406b9b86655eb30250c913e9dfc2f85c797a22cc95b045ebfd37cd44098"
+    }
+  ],
+  "tolerance_dp": 2.0,
+  "colour_tolerance": 40,
+  "extra_allowed": {},
+  "all_pass": false,
+  "states": {
+    "T5-discard": {
+      "pass": true,
+      "rows": 3,
+      "failed": 0,
+      "missing": [],
+      "extra": [],
+      "content_pairs": [
+        {
+          "ref": "Discard post?",
+          "matched": "Throw this draft away?",
+          "via": "run",
+          "distance": 11.1
+        }
+      ],
+      "content_unused": [],
+      "deviation_unused": [],
+      "asserts": [
+        {
+          "assert": "assert_label",
+          "target": "Discard",
+          "found": 1,
+          "want": true,
+          "pass": true
+        }
+      ],
+      "surfaces": [],
+      "reach": null,
+      "page_errors": [],
+      "skipped_ref_nodes": [],
+      "unpainted_ref_nodes": [],
+      "covered_ref_nodes": [],
+      "detail": [
+        {
+          "label": "Discard post?",
+          "kind": "text",
+          "ref": [
+            105.5,
+            330.8,
+            181.9,
+            18.2
+          ],
+          "web": [
+            116.7,
+            329.8,
+            159.6,
+            19
+          ],
+          "d": {
+            "x": -0.0,
+            "cy": -0.6
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": true,
+          "pass": true
+        },
+        {
+          "label": "Discard",
+          "kind": "text",
+          "ref": [
+            81.5,
+            381.4,
+            230.0,
+            48.8
+          ],
+          "web": [
+            81.5,
+            381.3,
+            230.0,
+            48.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              224,
+              1,
+              13
+            ],
+            "web": [
+              224,
+              1,
+              13
+            ],
+            "dist": 0.0,
+            "amount_ref": 543,
+            "amount_web": 614,
+            "amount_ratio": 1.131,
+            "amount_ok": true
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        },
+        {
+          "label": "Cancel",
+          "kind": "text",
+          "ref": [
+            81.5,
+            430.5,
+            230.0,
+            48.8
+          ],
+          "web": [
+            81.5,
+            430.5,
+            230.0,
+            48.8
+          ],
+          "d": {
+            "x": -0.0,
+            "y": -0.0,
+            "w": -0.0,
+            "h": -0.0
+          },
+          "geo_pass": true,
+          "colour": {
+            "ref": [
+              0,
+              0,
+              0
+            ],
+            "web": [
+              0,
+              0,
+              0
+            ],
+            "dist": 0.0,
+            "amount_ref": 617,
+            "amount_web": 808,
+            "amount_ratio": 1.31,
+            "amount_ok": true,
+            "amount_waived": "ink amount 1.31 against the reference's own, registered at w400:1.31. The substitute face's weight axis (w200:1.31 w300:1.31 w400:1.31 w500:1.31 w600:1.31 w700:1.31) was swept on this run's own boxes, so no stop on it closes the gap: regular-weight caption; the substitute face's regular at 15 dp carries more stroke mass than the reference's own regular at this size (its ink colour matches the reference to dist 0.0). The row box also spans the card's 1 px divider, which the reference reports at 1 physical pixel but CSS renders at ~2.7 device px at this density, so the divider ink is over-counted on the web side. The live capture is weight-independent - 400 is the axis floor and no stop closes the 31% gap."
+          },
+          "colour_pass": true,
+          "colour_note": null,
+          "under_nav": false,
+          "waived": null,
+          "content": false,
+          "pass": true
+        }
+      ]
+    }
+  },
+  "ring": []
+}

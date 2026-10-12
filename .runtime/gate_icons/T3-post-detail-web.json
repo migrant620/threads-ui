@@ -1,0 +1,631 @@
+{
+ "state": "T3-post-detail",
+ "served_bundle": "f2ac3535b60887922ce9ef4961f68a5d",
+ "shot": "T3-post-detail-web.png",
+ "shot_sha256": "516ead43b7b67b511e9567f25a73bf33596ba12a64df2114357bf73d40f10fd3",
+ "nodes": [
+  {
+   "label": "Thread",
+   "x": 60,
+   "y": 9.5,
+   "w": 63.6,
+   "h": 24
+  },
+  {
+   "label": "7.2K",
+   "x": 60,
+   "y": 30.8,
+   "w": 29.7,
+   "h": 18
+  },
+  {
+   "label": "views",
+   "x": 107.3,
+   "y": 30.8,
+   "w": 36.9,
+   "h": 18
+  },
+  {
+   "label": "harborline",
+   "x": 68,
+   "y": 79.6,
+   "w": 73.0,
+   "h": 19
+  },
+  {
+   "label": "21h",
+   "x": 149.6,
+   "y": 79.6,
+   "w": 23.1,
+   "h": 19
+  },
+  {
+   "label": "Follow",
+   "x": 322.8,
+   "y": 79.6,
+   "w": 46.1,
+   "h": 19
+  },
+  {
+   "label": "The trail survey is done. Twelve kilometres of coastline mapped, three access points need new steps, and the rest is just signage.",
+   "x": 12,
+   "y": 121.4,
+   "w": 354.2,
+   "h": 62.2
+  },
+  {
+   "label": "7.2K",
+   "x": 26,
+   "y": 194.8,
+   "w": 28.2,
+   "h": 19
+  },
+  {
+   "label": "165",
+   "x": 99.1,
+   "y": 194.8,
+   "w": 23.5,
+   "h": 19
+  },
+  {
+   "label": "395",
+   "x": 167.9,
+   "y": 194.8,
+   "w": 26.7,
+   "h": 19
+  },
+  {
+   "label": "Trending · Trail survey results · 6K posts",
+   "x": 35.3,
+   "y": 241,
+   "w": 236.5,
+   "h": 16
+  },
+  {
+   "label": "Top",
+   "x": 12,
+   "y": 283.4,
+   "w": 26.5,
+   "h": 19
+  },
+  {
+   "label": "View activity",
+   "x": 278.4,
+   "y": 284.2,
+   "w": 85.0,
+   "h": 18
+  },
+  {
+   "label": "quietmiles",
+   "x": 52,
+   "y": 328.9,
+   "w": 74.4,
+   "h": 19
+  },
+  {
+   "label": "21h",
+   "x": 132.1,
+   "y": 328.9,
+   "w": 23.1,
+   "h": 19
+  },
+  {
+   "label": "That matches the northern section, though our steps held up better than expected.",
+   "x": 52,
+   "y": 354,
+   "w": 315.6,
+   "h": 41.1
+  },
+  {
+   "label": "88",
+   "x": 66,
+   "y": 404.6,
+   "w": 17.8,
+   "h": 19
+  },
+  {
+   "label": "3",
+   "x": 127.5,
+   "y": 401.9,
+   "w": 8.6,
+   "h": 19
+  },
+  {
+   "label": "1",
+   "x": 181.7,
+   "y": 401.9,
+   "w": 5.9,
+   "h": 19
+  },
+  {
+   "label": "harborline",
+   "x": 88.4,
+   "y": 449,
+   "w": 73.0,
+   "h": 19
+  },
+  {
+   "label": "20h",
+   "x": 167.8,
+   "y": 449,
+   "w": 27.4,
+   "h": 19
+  },
+  {
+   "label": "Author",
+   "x": 215.8,
+   "y": 450.2,
+   "w": 37.0,
+   "h": 30.2
+  },
+  {
+   "label": "Noted. Which stretch was that?",
+   "x": 86.2,
+   "y": 477,
+   "w": 228.5,
+   "h": 20
+  },
+  {
+   "label": "23",
+   "x": 100.2,
+   "y": 504.1,
+   "w": 16.8,
+   "h": 19
+  },
+  {
+   "label": "cafehours",
+   "x": 88.4,
+   "y": 541.7,
+   "w": 63,
+   "h": 38
+  },
+  {
+   "label": "18h",
+   "x": 151.4,
+   "y": 551.2,
+   "w": 23.6,
+   "h": 19
+  },
+  {
+   "label": "Is the middle access point open again, or still fenced off?",
+   "x": 86.2,
+   "y": 579.2,
+   "w": 294.4,
+   "h": 41.1
+  },
+  {
+   "label": "22",
+   "x": 100.2,
+   "y": 626.4,
+   "w": 16.5,
+   "h": 19
+  },
+  {
+   "label": "3",
+   "x": 161.7,
+   "y": 626.4,
+   "w": 8.6,
+   "h": 19
+  },
+  {
+   "label": "Show replies",
+   "x": 92.4,
+   "y": 670.4,
+   "w": 48.9,
+   "h": 36.5
+  },
+  {
+   "label": "Reply to harborline",
+   "x": 56,
+   "y": 731.2,
+   "w": 142.2,
+   "h": 20
+  },
+  {
+   "label": "[CTL] Back",
+   "x": 0,
+   "y": 4,
+   "w": 60,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Turn on notifications to thread for 24 hours",
+   "x": 300.9,
+   "y": 4,
+   "w": 32,
+   "h": 48
+  },
+  {
+   "label": "[CTL] More options",
+   "x": 333,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] harborline posted",
+   "x": 0,
+   "y": 65.1,
+   "w": 393,
+   "h": 48
+  },
+  {
+   "label": "[CTL] harborline profile photo",
+   "x": 10.2,
+   "y": 65.5,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] harborline",
+   "x": 68,
+   "y": 65.1,
+   "w": 81.5,
+   "h": 48
+  },
+  {
+   "label": "[CTL] 21h",
+   "x": 149.6,
+   "y": 65.1,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Follow",
+   "x": 314.8,
+   "y": 65.1,
+   "w": 62.2,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Like 7236",
+   "x": 0,
+   "y": 181.9,
+   "w": 73.1,
+   "h": 44.8
+  },
+  {
+   "label": "[CTL] Reply 165",
+   "x": 73.1,
+   "y": 181.9,
+   "w": 68.8,
+   "h": 44.8
+  },
+  {
+   "label": "[CTL] Repost 395",
+   "x": 141.9,
+   "y": 181.9,
+   "w": 68.8,
+   "h": 44.8
+  },
+  {
+   "label": "[CTL] Share",
+   "x": 210.7,
+   "y": 181.9,
+   "w": 68.8,
+   "h": 44.8
+  },
+  {
+   "label": "[CTL] Top",
+   "x": 12,
+   "y": 284.2,
+   "w": 43.9,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] View activity",
+   "x": 278.4,
+   "y": 284.2,
+   "w": 85.0,
+   "h": 18
+  },
+  {
+   "label": "[CTL] ",
+   "x": 0,
+   "y": 310,
+   "w": 393,
+   "h": 48
+  },
+  {
+   "label": "[CTL] quietmiles posted",
+   "x": 0,
+   "y": 329.7,
+   "w": 393,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] quietmiles profile photo",
+   "x": 2.2,
+   "y": 319.9,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] quietmiles",
+   "x": 52,
+   "y": 314.4,
+   "w": 80.1,
+   "h": 48
+  },
+  {
+   "label": "[CTL] 21h",
+   "x": 132.1,
+   "y": 314.4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] ",
+   "x": 345,
+   "y": 309.3,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] More options",
+   "x": 361,
+   "y": 329.7,
+   "w": 16,
+   "h": 16
+  },
+  {
+   "label": "[CTL] ",
+   "x": 0,
+   "y": 390.1,
+   "w": 393,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Like 88",
+   "x": 40,
+   "y": 390.1,
+   "w": 61.5,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Reply 3",
+   "x": 101.5,
+   "y": 390.1,
+   "w": 54.2,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Repost 1",
+   "x": 155.7,
+   "y": 390.1,
+   "w": 51.3,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Share",
+   "x": 207.0,
+   "y": 390.1,
+   "w": 48,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] harborline posted",
+   "x": 42.2,
+   "y": 446.5,
+   "w": 350.8,
+   "h": 24
+  },
+  {
+   "label": "[CTL] harborline profile photo",
+   "x": 40.4,
+   "y": 434.5,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] harborline",
+   "x": 88.4,
+   "y": 434.5,
+   "w": 79.3,
+   "h": 48
+  },
+  {
+   "label": "[CTL] 20h",
+   "x": 167.8,
+   "y": 434.5,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] harborline 20h",
+   "x": 215.8,
+   "y": 448.3,
+   "w": 52.4,
+   "h": 20.4
+  },
+  {
+   "label": "[CTL] ",
+   "x": 345,
+   "y": 428.3,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] More options",
+   "x": 361,
+   "y": 446.5,
+   "w": 16,
+   "h": 15.6
+  },
+  {
+   "label": "[CTL] ",
+   "x": 42.2,
+   "y": 492.3,
+   "w": 350.8,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Like 23",
+   "x": 74.2,
+   "y": 492.3,
+   "w": 58.6,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Reply",
+   "x": 132.8,
+   "y": 492.3,
+   "w": 42.2,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Repost",
+   "x": 175.0,
+   "y": 492.3,
+   "w": 42.2,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] Share",
+   "x": 217.2,
+   "y": 492.3,
+   "w": 48,
+   "h": 42.6
+  },
+  {
+   "label": "[CTL] ",
+   "x": 42.2,
+   "y": 534.9,
+   "w": 350.8,
+   "h": 48
+  },
+  {
+   "label": "[CTL] cafehours posted",
+   "x": 42.2,
+   "y": 548.7,
+   "w": 350.8,
+   "h": 24
+  },
+  {
+   "label": "[CTL] cafehours profile photo",
+   "x": 40.4,
+   "y": 536.7,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] cafehours",
+   "x": 88.4,
+   "y": 536.7,
+   "w": 63,
+   "h": 48
+  },
+  {
+   "label": "[CTL] 18h",
+   "x": 151.4,
+   "y": 536.7,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] ",
+   "x": 345,
+   "y": 530.5,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] More options",
+   "x": 361,
+   "y": 548.7,
+   "w": 16,
+   "h": 15.6
+  },
+  {
+   "label": "[CTL] ",
+   "x": 42.2,
+   "y": 615.7,
+   "w": 350.8,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Like 22",
+   "x": 74.2,
+   "y": 615.7,
+   "w": 61.5,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] Reply 3",
+   "x": 135.7,
+   "y": 615.7,
+   "w": 51.3,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] Repost",
+   "x": 187.0,
+   "y": 615.7,
+   "w": 42.2,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] Share",
+   "x": 229.2,
+   "y": 615.7,
+   "w": 48,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] Show replies",
+   "x": 92.4,
+   "y": 671.4,
+   "w": 86.2,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] ",
+   "x": 0,
+   "y": 697.2,
+   "w": 345,
+   "h": 8.7
+  },
+  {
+   "label": "[CTL] ",
+   "x": 345,
+   "y": 696.5,
+   "w": 48,
+   "h": 9.5
+  },
+  {
+   "label": "[CTL] Reply to harborline",
+   "x": 56,
+   "y": 733.2,
+   "w": 208.9,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] Gallery",
+   "x": 271.1,
+   "y": 718,
+   "w": 36,
+   "h": 48
+  },
+  {
+   "label": "[CTL] GIF",
+   "x": 307.1,
+   "y": 718,
+   "w": 29.8,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Add attachment",
+   "x": 337,
+   "y": 718,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Show login screen",
+   "x": 365,
+   "y": 749,
+   "w": 22,
+   "h": 22
+  }
+ ]
+}

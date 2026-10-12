@@ -1,0 +1,323 @@
+{
+ "state": "T5-composer-two",
+ "served_bundle": "f2ac3535b60887922ce9ef4961f68a5d",
+ "shot": "T5-composer-two-web.png",
+ "shot_sha256": "c0d3f15160466218fcacf91cb2c3b8afbbee1cff0575d88d106f267ae47f1df1",
+ "nodes": [
+  {
+   "label": "New thread",
+   "x": 60,
+   "y": 15.4,
+   "w": 101.3,
+   "h": 24
+  },
+  {
+   "label": "m620ui",
+   "x": 60,
+   "y": 70.5,
+   "w": 54.5,
+   "h": 19
+  },
+  {
+   "label": "m620ui �Community or topic",
+   "x": 115.7,
+   "y": 70.3,
+   "w": 208.9,
+   "h": 19
+  },
+  {
+   "label": "Hello",
+   "x": 60,
+   "y": 89.5,
+   "w": 316.9,
+   "h": 40.4
+  },
+  {
+   "label": "Hello �",
+   "x": 60,
+   "y": 100.1,
+   "w": 53.0,
+   "h": 19
+  },
+  {
+   "label": "1",
+   "x": 104.8,
+   "y": 101.5,
+   "w": 6.5,
+   "h": 14
+  },
+  {
+   "label": "/",
+   "x": 114.3,
+   "y": 101.5,
+   "w": 4.5,
+   "h": 14
+  },
+  {
+   "label": "2",
+   "x": 121.5,
+   "y": 101.5,
+   "w": 6.5,
+   "h": 14
+  },
+  {
+   "label": "m620ui",
+   "x": 60,
+   "y": 143.3,
+   "w": 54.5,
+   "h": 19
+  },
+  {
+   "label": "What's new?",
+   "x": 60,
+   "y": 162.6,
+   "w": 316.9,
+   "h": 40.4
+  },
+  {
+   "label": "What's new?",
+   "x": 60,
+   "y": 168.2,
+   "w": 83.5,
+   "h": 18
+  },
+  {
+   "label": "m620ui  �",
+   "x": 115.7,
+   "y": 142.6,
+   "w": 74.1,
+   "h": 19
+  },
+  {
+   "label": "2",
+   "x": 125.4,
+   "y": 145.6,
+   "w": 6.5,
+   "h": 14
+  },
+  {
+   "label": "/",
+   "x": 134.9,
+   "y": 145.6,
+   "w": 4.5,
+   "h": 14
+  },
+  {
+   "label": "2",
+   "x": 142.1,
+   "y": 145.6,
+   "w": 6.5,
+   "h": 14
+  },
+  {
+   "label": "Add to thread",
+   "x": 60,
+   "y": 248.6,
+   "w": 91.2,
+   "h": 18
+  },
+  {
+   "label": "Post options",
+   "x": 44,
+   "y": 457.3,
+   "w": 87.2,
+   "h": 19
+  },
+  {
+   "label": "Post",
+   "x": 332.9,
+   "y": 457.4,
+   "w": 31.5,
+   "h": 19
+  },
+  {
+   "label": "[CTL] Cancel",
+   "x": 0,
+   "y": 4,
+   "w": 60,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Click to view all your saved drafts.",
+   "x": 292.9,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] More options",
+   "x": 341,
+   "y": 4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] m620ui profile photo",
+   "x": 6.2,
+   "y": 69.5,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] m620ui",
+   "x": 60,
+   "y": 56,
+   "w": 55.7,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Community or topic",
+   "x": 129.9,
+   "y": 56,
+   "w": 135.4,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Community or topic",
+   "x": 96.8,
+   "y": 56.4,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] What's new?",
+   "x": 60,
+   "y": 95.7,
+   "w": 316.9,
+   "h": 20.4
+  },
+  {
+   "label": "[CTL] Thread text",
+   "x": 60,
+   "y": 89.5,
+   "w": 316.9,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] ",
+   "x": 347.1,
+   "y": 57.5,
+   "w": 45.9,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Clear",
+   "x": 365.0,
+   "y": 75.7,
+   "w": 12,
+   "h": 12
+  },
+  {
+   "label": "[CTL] m620ui profile photo",
+   "x": 6.2,
+   "y": 140.8,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] m620ui",
+   "x": 60,
+   "y": 128.8,
+   "w": 55.7,
+   "h": 48
+  },
+  {
+   "label": "[CTL] What's new?",
+   "x": 60,
+   "y": 169.2,
+   "w": 316.9,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] Thread text",
+   "x": 60,
+   "y": 162.6,
+   "w": 316.9,
+   "h": 40.4
+  },
+  {
+   "label": "[CTL] ",
+   "x": 347.1,
+   "y": 128.8,
+   "w": 45.9,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Clear",
+   "x": 365.0,
+   "y": 147.0,
+   "w": 12,
+   "h": 12
+  },
+  {
+   "label": "[CTL] Add photos and videos from your camera roll",
+   "x": 45.1,
+   "y": 192.9,
+   "w": 40.4,
+   "h": 40.8
+  },
+  {
+   "label": "[CTL] Add a GIF",
+   "x": 85.5,
+   "y": 192.9,
+   "w": 40.4,
+   "h": 40.8
+  },
+  {
+   "label": "[CTL] Add a sticker",
+   "x": 125.9,
+   "y": 192.9,
+   "w": 40.4,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Add music to your posts",
+   "x": 166.3,
+   "y": 192.9,
+   "w": 40.4,
+   "h": 48
+  },
+  {
+   "label": "[CTL] See more options",
+   "x": 206.7,
+   "y": 192.9,
+   "w": 48,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Add to thread",
+   "x": 60,
+   "y": 248.9,
+   "w": 91.2,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] Post options",
+   "x": 44,
+   "y": 458.1,
+   "w": 87.2,
+   "h": 17.5
+  },
+  {
+   "label": "[CTL] ",
+   "x": 234.7,
+   "y": 442.9,
+   "w": 66.2,
+   "h": 48
+  },
+  {
+   "label": "[CTL] Post",
+   "x": 316.7,
+   "y": 446.9,
+   "w": 64,
+   "h": 40
+  },
+  {
+   "label": "[CTL] Show login screen",
+   "x": 365,
+   "y": 749,
+   "w": 22,
+   "h": 22
+  }
+ ]
+}

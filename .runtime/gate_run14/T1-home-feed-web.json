@@ -1,0 +1,345 @@
+[
+ {
+  "label": "m620ui",
+  "x": 60,
+  "y": 58.5,
+  "w": 52.4,
+  "h": 19
+ },
+ {
+  "label": "What's new?",
+  "x": 60,
+  "y": 80,
+  "w": 87.6,
+  "h": 19
+ },
+ {
+  "label": "seafog",
+  "x": 50.6,
+  "y": 130.1,
+  "w": 47.7,
+  "h": 19
+ },
+ {
+  "label": "25m",
+  "x": 106.9,
+  "y": 115.6,
+  "w": 30.6,
+  "h": 19
+ },
+ {
+  "label": "Coastal path reopened this morning. New timber along the fence line, so the fence should hold up through winter",
+  "x": 60,
+  "y": 158.2,
+  "w": 316.2,
+  "h": 55.6
+ },
+ {
+  "label": "harborline.org",
+  "x": 215.1,
+  "y": 194.8,
+  "w": 93.5,
+  "h": 19
+ },
+ {
+  "label": "72",
+  "x": 74,
+  "y": 630.2,
+  "w": 16.1,
+  "h": 19
+ },
+ {
+  "label": "3",
+  "x": 135.5,
+  "y": 630.2,
+  "w": 8.6,
+  "h": 19
+ },
+ {
+  "label": "2",
+  "x": 189.7,
+  "y": 630.2,
+  "w": 8.2,
+  "h": 19
+ },
+ {
+  "label": "quietmiles",
+  "x": 60,
+  "y": 680.8,
+  "w": 74.4,
+  "h": 19
+ },
+ {
+  "label": "quietmiles � 20h",
+  "x": 147.4,
+  "y": 679.6,
+  "w": 115.1,
+  "h": 20
+ },
+ {
+  "label": "20h",
+  "x": 182.1,
+  "y": 666.3,
+  "w": 27.4,
+  "h": 19
+ },
+ {
+  "label": "We are in a simulation",
+  "x": 60,
+  "y": 704.4,
+  "w": 145.8,
+  "h": 19
+ },
+ {
+  "label": "[CTL] Menu",
+  "x": 4,
+  "y": 4,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 136.5,
+  "y": 0,
+  "w": 120.1,
+  "h": 56
+ },
+ {
+  "label": "[CTL] Search",
+  "x": 341,
+  "y": 4,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Create a new thread",
+  "x": 0,
+  "y": 0,
+  "w": 393,
+  "h": 115.6
+ },
+ {
+  "label": "[CTL] m620ui profile photo",
+  "x": 6.2,
+  "y": 54.1,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] seafog profile photo",
+  "x": 6.2,
+  "y": 129.0,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] seafog posted",
+  "x": 0,
+  "y": 131.0,
+  "w": 393,
+  "h": 17.5
+ },
+ {
+  "label": "[CTL] seafog",
+  "x": 50.6,
+  "y": 115.6,
+  "w": 47.7,
+  "h": 48
+ },
+ {
+  "label": "[CTL] 25m",
+  "x": 98.2,
+  "y": 115.6,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 345,
+  "y": 110.6,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] More options",
+  "x": 361,
+  "y": 131.0,
+  "w": 16,
+  "h": 16
+ },
+ {
+  "label": "[CTL] Open post",
+  "x": 0,
+  "y": 111.3,
+  "w": 393,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 0,
+  "y": 222.1,
+  "w": 393,
+  "h": 396
+ },
+ {
+  "label": "[CTL] Photo preview",
+  "x": 60,
+  "y": 222.1,
+  "w": 316.7,
+  "h": 396
+ },
+ {
+  "label": "[CTL] ",
+  "x": 0,
+  "y": 618.1,
+  "w": 393,
+  "h": 43.3
+ },
+ {
+  "label": "[CTL] Like 72",
+  "x": 48,
+  "y": 618.1,
+  "w": 61.5,
+  "h": 43.3
+ },
+ {
+  "label": "[CTL] Reply 3",
+  "x": 109.5,
+  "y": 618.1,
+  "w": 54.2,
+  "h": 43.3
+ },
+ {
+  "label": "[CTL] Repost 2",
+  "x": 163.7,
+  "y": 618.1,
+  "w": 51.3,
+  "h": 43.3
+ },
+ {
+  "label": "[CTL] Share",
+  "x": 215.0,
+  "y": 618.1,
+  "w": 48,
+  "h": 43.3
+ },
+ {
+  "label": "[CTL] quietmiles profile photo",
+  "x": 6.2,
+  "y": 679.7,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] quietmiles posted",
+  "x": 0,
+  "y": 681.7,
+  "w": 393,
+  "h": 17.5
+ },
+ {
+  "label": "[CTL] quietmiles",
+  "x": 60,
+  "y": 666.3,
+  "w": 87.3,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Verified",
+  "x": 130.6,
+  "y": 666.6,
+  "w": 17.8,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 148.5,
+  "y": 666.6,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] 20h",
+  "x": 171.8,
+  "y": 666.3,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 345,
+  "y": 661.3,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] More options",
+  "x": 361,
+  "y": 681.7,
+  "w": 16,
+  "h": 16
+ },
+ {
+  "label": "[CTL] Open post by quietmiles",
+  "x": 0,
+  "y": 662.0,
+  "w": 393,
+  "h": 48
+ },
+ {
+  "label": "[CTL] ",
+  "x": 345,
+  "y": 774.8,
+  "w": 48,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Open post by cafehours",
+  "x": 0,
+  "y": 775.5,
+  "w": 393,
+  "h": 48
+ },
+ {
+  "label": "[CTL] Feed",
+  "x": 40.4,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Messages",
+  "x": 112.8,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Create",
+  "x": 184.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Activity",
+  "x": 256.9,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Profile",
+  "x": 329,
+  "y": 738,
+  "w": 24,
+  "h": 24
+ },
+ {
+  "label": "[CTL] Show login screen",
+  "x": 365,
+  "y": 749,
+  "w": 22,
+  "h": 22
+ }
+]
