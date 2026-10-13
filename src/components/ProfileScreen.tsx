@@ -143,7 +143,7 @@ export const ProfileScreen: React.FC<Props> = ({ onNavigate, followed, onToggleF
                   onPress={() => onToggleFollow(s.handle)}
                   style={[styles.cardFollow, followed[s.handle] ? styles.cardFollowOn : null, { left: c.followX, top: 457.04, width: c.followW }]}
                 >
-                  <Text numberOfLines={1} style={[styles.cardFollowText, followed[s.handle] ? styles.cardFollowTextOn : null]}>
+                  <Text style={[styles.cardFollowText, followed[s.handle] ? styles.cardFollowTextOn : null]}>
                     {followed[s.handle] ? 'Following' : 'Follow'}
                   </Text>
                 </Pressable>
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
   cardFollow: { position: 'absolute', height: 48, borderRadius: radius.pill, backgroundColor: colors.ink, alignItems: 'center', justifyContent: 'center' },
   /* Followed: the same card key reporting its own state - page-coloured fill with the border token. */
   cardFollowOn: { backgroundColor: colors.page, borderWidth: 1, borderColor: colors.border },
-  cardFollowText: { fontSize: 15, fontWeight: weight.semibold, letterSpacing: tracking.body, color: colors.onDark, fontFamily: 'ThreadsBody' },
+  cardFollowText: { fontSize: 15, fontWeight: weight.semibold, letterSpacing: 0, color: colors.onDark, fontFamily: 'ThreadsBody' },
   cardFollowTextOn: { color: colors.ink },
   tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody' },
   emptyRun: { position: 'absolute', letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
