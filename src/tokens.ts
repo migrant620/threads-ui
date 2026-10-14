@@ -9,7 +9,11 @@
  *
  * Colours — median of the 1% of pixels furthest from each box's dominant colour,
  * read straight off the reference rasters (the same rule pipeline/app_gate.py uses):
- *   page / card / sheet ....... (252,252,252)  => #FCFCFC   not pure white
+ *   page / card / sheet ....... (255,255,255)  => #FFFFFF
+ *     (re-measured 2026-10-14 across all 14 P0 states: at y=690 dp the reference carries a 379.5 dp
+ *      run of exactly (255,255,255) in T1/T3/T6/T8/T8-replies/T8-reposts/T9/T10 and a 264.2 dp one
+ *      in T4/T5/T6-results, while `page` painted (252,252,252) there. The earlier (252,252,252) note
+ *      was sampled off a single plate and is 3 levels under the reference's own page.)
  *   primary ink ............... (0,0,0)        => #000000
  *   secondary ink ............. (152,152,152)  => #989898
  *   post separator hairline ... (236,236,236)  => #ECECEC   1 px
@@ -61,7 +65,7 @@ export const frame = {
 };
 
 export const colors = {
-  page: '#FCFCFC',
+  page: '#FFFFFF',
   surface: '#FFFFFF',
   ink: '#000000',
   secondary: '#989898',
