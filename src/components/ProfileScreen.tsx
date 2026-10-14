@@ -258,6 +258,9 @@ const styles = StyleSheet.create({
   cardFollowOn: { backgroundColor: colors.page, borderWidth: 1, borderColor: colors.border },
   cardFollowText: { fontSize: 15, fontWeight: weight.semibold, letterSpacing: 0, color: colors.onDark, fontFamily: 'ThreadsBody' },
   cardFollowTextOn: { color: colors.ink },
-  tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody' },
+  // R26: all four section tabs measure 17.5 dp tall on the device (Threads / Replies / Media /
+  // Reposts) while our run drew 19-20, which dropped every label's centre 1.3 dp below the
+  // reference's. Pinning the line box to the reference's own height re-centres them.
+  tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody', lineHeight: 17.5 },
   emptyRun: { position: 'absolute', letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
 });
