@@ -117,7 +117,7 @@ export const ProfileIcon: React.FC<IconProps> = ({ size = 24, color = colors.ink
 );
 
 /** Action row: like. */
-export const HeartIcon: React.FC<IconProps> = ({ size = 20, color = colors.ink, filled = false, strokeWidth = 1.9 }) => (
+export const HeartIcon: React.FC<IconProps> = React.memo(({ size = 20, color = colors.ink, filled = false, strokeWidth = 1.9 }) => (
   <Svg {...base(size, color, filled ? 0 : strokeWidth)}>
     <Path
       d="M12 20s-8-4.7-8-9.9a4.5 4.5 0 0 1 8-2.8 4.5 4.5 0 0 1 8 2.8c0 5.2-8 9.9-8 9.9z"
@@ -125,7 +125,7 @@ export const HeartIcon: React.FC<IconProps> = ({ size = 20, color = colors.ink, 
       stroke={filled ? 'none' : color}
     />
   </Svg>
-);
+));
 
 /** Action row: reply. */
 export const ReplyIcon: React.FC<IconProps> = ({ size = 20, color = colors.ink, strokeWidth = 1.9 }) => (
