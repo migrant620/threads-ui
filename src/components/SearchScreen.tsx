@@ -148,6 +148,9 @@ const Landing: React.FC<Props> = ({ query, onQuery, onBack, onNavigate, followed
         const top = TREND_TOP + i * TREND_PITCH;
         return (
           <View key={t.id} style={{ position: 'absolute', left: 0, top, width: frame.width, height: TREND_PITCH }}>
+            {/* The capture rules every trend row but the first: the line sits 13.5 dp above the
+                row's own title, from x 12 to the right edge, and reads (217,217,217). */}
+            {i > 0 ? <View style={styles.trendRule} pointerEvents="none" /> : null}
             <Text style={[styles.trendTitle, { top: 0 }]} numberOfLines={1}>
               {t.topic}
             </Text>
@@ -175,6 +178,10 @@ const Landing: React.FC<Props> = ({ query, onQuery, onBack, onNavigate, followed
       <View style={styles.showMoreChevron} pointerEvents="none">
         <ChevronDownIcon size={11} color={colors.ink} />
       </View>
+
+      {/* The full-width rule between "Show more" (y 602.2) and the suggestion caption (y 656.1);
+          the capture puts it at 639.7 and it reads (217,217,217) edge to edge. */}
+      <View style={styles.sectionRule} pointerEvents="none" />
 
       <Text style={styles.suggestionCaption}>Suggested accounts</Text>
       <SuggestionRow
@@ -328,6 +335,10 @@ const styles = StyleSheet.create({
   trendSummary: { position: 'absolute', left: 16, lineHeight: 18.3, fontSize: type.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
   thumb: { position: 'absolute', left: 322.8, width: 54.2, height: 64, borderRadius: 8, overflow: 'hidden', backgroundColor: colors.surfaceAlt },
   thumbImage: { width: '100%', height: '100%' },
+
+  /* The two rules of the landing body, at the capture's own (217,217,217). */
+  trendRule: { position: 'absolute', left: 12, right: 0, top: -13.5, height: 1, backgroundColor: colors.hairlineStrong },
+  sectionRule: { position: 'absolute', left: 0, right: 0, top: 639.7, height: 1, backgroundColor: colors.hairlineStrong },
 
   showMoreKey: { position: 'absolute', left: 16, top: 602.2, height: 17.5, justifyContent: 'center' },
   showMoreRun: { lineHeight: 17.5, fontSize: type.body, fontWeight: weight.semibold, color: colors.ink, fontFamily: 'ThreadsBody' },

@@ -77,6 +77,14 @@ export const colors = {
   /* The profile screen's own section fill, sampled (244,244,244). */
   surfaceAlt: '#F4F4F4',
   hairline: '#ECECEC',
+  /* A second, darker rule. The post separator above is (236,236,236), but every other rule on the
+     captures reads (217,217,217): the trend rules on search (y 252.5 / 337.0 / 425.4 / 509.8, and a
+     full-width one at 639.7), the activity chips' own 1 dp border (y 64.0 and 96.8), the profile's
+     section rules (y 215.1 indented, 576.8 full width) and the composer's header rule (y 56.0).
+     Sampled 2026-10-15 off the reference rasters: the row is 217 on R, G and B in all of them,
+     which is 19 levels under `hairline` - far past any tolerance, and invisible to the node gate
+     because a 1 dp rule inside a 29 dp cell leaves the median colour untouched. */
+  hairlineStrong: '#D9D9D9',
   border: '#D4D4D4',
   field: '#F4F4F4',
   disabled: '#E8E8E8',

@@ -191,7 +191,10 @@ const styles = StyleSheet.create({
      where the body's -0.2 tracking would take 0.6 to 2.6 dp back off them. */
   chip: { position: 'absolute', top: 64, height: 33.2, borderRadius: 16.6, alignItems: 'center', justifyContent: 'center' },
   chipOn: { backgroundColor: colors.chip },
-  chipOff: { borderWidth: 1, borderColor: colors.hairline },
+  /* The unselected chips' 1 dp border reads (217,217,217) on T7_1 - both its top edge (y 64.0) and
+     its bottom edge (y 96.8) measure that across 58-61% of the frame width, which is the four chips
+     side by side. The shared Hairline is (236,236,236) and was 19 levels too light. */
+  chipOff: { borderWidth: 1, borderColor: colors.hairlineStrong },
   chipRun: { fontSize: 15, lineHeight: 17.5, letterSpacing: 0, fontWeight: weight.medium, color: colors.ink, fontFamily: 'ThreadsBody' },
 
   /* The section label takes the same solve, and it is the row that settles the question: at 700 this

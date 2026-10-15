@@ -189,6 +189,11 @@ export const ProfileScreen: React.FC<Props> = ({ onNavigate, followed, onToggleF
             );
           })}
 
+          {/* The rule under the section tabs: full width at y 576.8, (217,217,217) on all three
+              tab captures. The tabs' own 20 dp row ends at 564.4, so this is the row's bottom rule
+              rather than the selected tab's 2 dp indicator. */}
+          <View style={styles.tabRule} pointerEvents="none" />
+
           {/* Empty state — one run per tab, each drawn on the box the capture reports for that tab's
               own permission prompt:
                 Threads  (125.5417, 640.81, 142.2806 x 17.4667)  black, 600
@@ -263,4 +268,5 @@ const styles = StyleSheet.create({
   // reference's. Pinning the line box to the reference's own height re-centres them.
   tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody', lineHeight: 17.5 },
   emptyRun: { position: 'absolute', letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
+  tabRule: { position: 'absolute', left: 0, right: 0, top: 576.8, height: 1, backgroundColor: colors.hairlineStrong },
 });

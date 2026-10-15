@@ -109,6 +109,10 @@ export const Composer: React.FC<Props> = ({ segments, onChange, onAddSegment, on
         ]}
       />
 
+      {/* The header's bottom rule: full width at y 56.0, (217,217,217) on T4 and T5 alike. Both
+          captures carry it between the top bar and the first segment's audience row. */}
+      <View style={styles.headerRule} pointerEvents="none" />
+
       {/* The connector ties the segments together on the avatar column. */}
       {multi ? <View style={[styles.segmentConnector, { top: 56, height: SEG_ROWS[segments.length - 1].handleTop - 32 }]} /> : null}
 
@@ -351,6 +355,7 @@ const DEVICE_PX = 0.36;
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.page, width: frame.width, height: frame.height },
+  headerRule: { position: 'absolute', left: 0, right: 0, top: 56, height: 1, backgroundColor: colors.hairlineStrong },
   segmentConnector: { position: 'absolute', left: space.avatarLeft + 23, width: connector.width, backgroundColor: colors.border, borderRadius: 1 },
 
   handleKey: { position: 'absolute', left: 60, width: 55.7, height: 48, justifyContent: 'center' },
