@@ -333,7 +333,16 @@ const styles = StyleSheet.create({
 
   trendTitle: { position: 'absolute', left: 16, lineHeight: 18.3, fontSize: type.body, fontWeight: weight.semibold, color: colors.ink, fontFamily: 'ThreadsBody' },
   trendSummary: { position: 'absolute', left: 16, lineHeight: 18.3, fontSize: type.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
-  thumb: { position: 'absolute', left: 322.8, width: 54.2, height: 64, borderRadius: 8, overflow: 'hidden', backgroundColor: colors.surfaceAlt },
+  /**
+   * R29: the 8 dp radius was never checked against the raster - a photo tile has no node
+   * of its own and its median colour is the picture, so every earlier axis skipped it.
+   * Measured directly instead: on the 54.2x64 tile at y349.3 the reference crosses into
+   * paint at 11.40 / 12.02 / 11.78 / 12.50 dp (median 11.90) on the four corners, where
+   * this build crossed at 7.18 / 7.67 / 9.44 / 9.09 (median 8.38).  An independent
+   * horizontal scan 0.4 dp below the top edge agrees: reference 11.1, this build 6.9.
+   * Both methods put the true radius near 11.9 dp, so the tile is cut at 12.
+   */
+  thumb: { position: 'absolute', left: 322.8, width: 54.2, height: 64, borderRadius: 12, overflow: 'hidden', backgroundColor: colors.surfaceAlt },
   thumbImage: { width: '100%', height: '100%' },
 
   /* The two rules of the landing body, at the capture's own (217,217,217). */

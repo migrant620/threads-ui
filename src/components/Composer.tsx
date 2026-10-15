@@ -414,7 +414,10 @@ const styles = StyleSheet.create({
   postOptionsText: { fontSize: type.body, fontWeight: weight.medium, color: colors.secondary, fontFamily: 'ThreadsBody' },
   countPicker: { position: 'absolute', left: 234.7, top: 0, width: 66.2, height: 48, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 4 },
   countThumb: { width: 40, height: 40, borderRadius: 20, backgroundColor: colors.pickerGrey },
-  postKey: { position: 'absolute', left: 316.7, top: 4, width: 64, height: 40, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
+  /* R29 read the corner off the raster: the reference's Post key is a true pill - 20.2 dp on all
+     four corners of a 40 dp tall plate - while `radius.pill` (shared with Follow, which was never
+     measured against a clean edge) is 18. */
+  postKey: { position: 'absolute', left: 316.7, top: 4, width: 64, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
   postKeyText: { fontSize: type.body, fontWeight: weight.medium, fontFamily: 'ThreadsBody' },
 
   /* ---- the discard confirmation (T5/T5_deleted_real) ---- */
