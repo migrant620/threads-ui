@@ -250,10 +250,10 @@ const styles = StyleSheet.create({
      for an account without a photo. */
   ownAvatar: { position: 'absolute', left: 312.94, top: 56.04, width: 64.04, height: 64.04, borderRadius: 32.02, backgroundColor: '#DBDBDB', alignItems: 'center', justifyContent: 'center' },
   interestsPill: { position: 'absolute', left: 16, width: 113, height: 32, borderRadius: 16, borderWidth: 1, borderColor: colors.border, alignItems: 'center', justifyContent: 'center' },
-  interestsRun: { fontSize: 13, fontWeight: weight.soft, letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
+  interestsRun: { fontSize: 13, fontWeight: weight.soft, letterSpacing: tracking.body +0.17, color: colors.secondary, fontFamily: 'ThreadsBody' },
   followers: { position: 'absolute', left: 16, fontSize: 15, fontWeight: weight.soft, letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
   plate: { position: 'absolute', height: 32, width: 175.3, borderRadius: 10, borderWidth: 1, borderColor: colors.border, alignItems: 'center', justifyContent: 'center' },
-  plateRunEdit: { fontSize: 15.5, fontWeight: weight.medium, letterSpacing: tracking.body, color: colors.ink, fontFamily: 'ThreadsBody' },
+  plateRunEdit: { fontSize: 15.5, fontWeight: weight.medium, letterSpacing: tracking.body -0.18, color: colors.ink, fontFamily: 'ThreadsBody' },
   plateRunShare: { fontSize: 15, fontWeight: weight.strong, letterSpacing: tracking.body, color: colors.ink, fontFamily: 'ThreadsBody' },
   sectionRun: { position: 'absolute', fontSize: 15, fontWeight: weight.semibold, letterSpacing: tracking.body, color: colors.ink, fontFamily: 'ThreadsBody' },
   cardName: { position: 'absolute', fontSize: 15, fontWeight: weight.semibold, lineHeight: 18, letterSpacing: tracking.body, color: colors.ink, fontFamily: 'ThreadsBody', width: 160 },
@@ -266,7 +266,7 @@ const styles = StyleSheet.create({
   // R26: all four section tabs measure 17.5 dp tall on the device (Threads / Replies / Media /
   // Reposts) while our run drew 19-20, which dropped every label's centre 1.3 dp below the
   // reference's. Pinning the line box to the reference's own height re-centres them.
-  tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody', lineHeight: 17.5 },
+  tabRun: { color: colors.tertiary, fontFamily: 'ThreadsBody', lineHeight: 17.5, letterSpacing: -0.36 },
   emptyRun: { position: 'absolute', letterSpacing: tracking.body, color: colors.secondary, fontFamily: 'ThreadsBody' },
   tabRule: { position: 'absolute', left: 0, right: 0, top: 576.8, height: 1, backgroundColor: colors.hairlineStrong },
 });
