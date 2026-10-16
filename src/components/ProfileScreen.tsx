@@ -61,13 +61,19 @@ export const ProfileScreen: React.FC<Props> = ({ onNavigate, followed, onToggleF
         <Pressable accessibilityRole="button" accessibilityLabel="Insights" style={[styles.topKey, { left: 4 }]}>
           <InsightsIcon size={iconSize.topBar} />
         </Pressable>
-        <Pressable accessibilityRole="button" accessibilityLabel="Search" style={[styles.topKey, { left: 244.9 }]}>
+        <Pressable accessibilityRole="button" accessibilityLabel="Search" onPress={() => onNavigate('search')} style={[styles.topKey, { left: 244.9 }]}>
           <SearchIcon size={iconSize.topBar} />
         </Pressable>
         <Pressable accessibilityRole="button" accessibilityLabel="Instagram" style={[styles.topKey, { left: 292.93 }]}>
           <InstagramMark size={iconSize.topBar} color={colors.ink} />
         </Pressable>
-        <Pressable accessibilityRole="button" accessibilityLabel="Settings" style={[styles.topKey, { left: 340.96 }]}>
+        {/* R32: the gear and the search key were both `Pressable`s with no `onPress`, and
+            neither Insights nor Settings had a page. Search routes through `onNavigate`, which
+            already carries a 'search' destination; the gear now reaches the new Settings page.
+            Insights and Instagram stay unpressable and are recorded in spec/design-qa.md:
+            the first has no reference capture to build from and the second is an outbound
+            link to another app that a no-backend prototype cannot honour. */}
+        <Pressable accessibilityRole="button" accessibilityLabel="Settings" onPress={() => onNavigate('settings')} style={[styles.topKey, { left: 340.96 }]}>
           <SettingsIcon size={iconSize.topBar} />
         </Pressable>
       </View>
@@ -236,7 +242,7 @@ export const ProfileScreen: React.FC<Props> = ({ onNavigate, followed, onToggleF
 };
 
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.page, width: frame.width, height: frame.height },
+  screen: { flex: 1, backgroundColor: '#F5F5F5', width: frame.width, height: frame.height },
   topBar: { position: 'absolute', left: 0, top: 0, width: frame.width, height: 56, zIndex: 20 },
   topIcon: { position: 'absolute', left: 0, top: 0, width: frame.width, height: 56 },
   topKey: { position: 'absolute', top: 4, width: 48, height: 48, alignItems: 'center', justifyContent: 'center' },

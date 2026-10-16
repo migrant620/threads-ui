@@ -10,6 +10,7 @@ import { ActivityScreen } from './components/ActivityScreen';
 import { ProfileScreen } from './components/ProfileScreen';
 import { MessagesScreen } from './components/MessagesScreen';
 import { LoginScreen } from './components/LoginScreen';
+import { SettingsScreen } from './components/SettingsScreen';
 import { buildFeed, buildThread } from './data';
 import { colors, frame } from './tokens';
 import { useVariableWeightFont } from './webfont';
@@ -24,7 +25,12 @@ import { useVariableWeightFont } from './webfont';
  * because the strings were written out by hand.
  */
 
-type Screen = 'login' | 'feed' | 'post' | 'create' | 'search' | 'activity' | 'profile' | 'messages';
+/**
+ * R32 added 'settings': the profile's top-bar gear key was a `Pressable` with no
+ * `onPress` and no page existed anywhere in the app, so the profile's most
+ * prominent secondary destination was dead. See components/SettingsScreen.tsx.
+ */
+type Screen = 'login' | 'feed' | 'post' | 'create' | 'search' | 'activity' | 'profile' | 'messages' | 'settings';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -87,6 +93,7 @@ export default function App() {
     if (key === 'activity') return setScreen('activity');
     if (key === 'profile') return setScreen('profile');
     if (key === 'search') return setScreen('search');
+    if (key === 'settings') return setScreen('settings');
     return setScreen('login');
   };
 
@@ -144,6 +151,7 @@ export default function App() {
         {screen === 'search' ? <SearchScreen query={query} onQuery={setQuery} onBack={backToFeed} onNavigate={onNavigate} followed={followed} onToggleFollow={toggleFollow} /> : null}
         {screen === 'activity' ? <ActivityScreen now={now} onNavigate={onNavigate} /> : null}
         {screen === 'profile' ? <ProfileScreen onNavigate={onNavigate} followed={followed} onToggleFollow={toggleFollow} /> : null}
+        {screen === 'settings' ? <SettingsScreen onBack={() => setScreen('profile')} /> : null}
         {screen === 'messages' ? <MessagesScreen onNavigate={onNavigate} /> : null}
       </View>
 
