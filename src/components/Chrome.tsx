@@ -577,7 +577,7 @@ const styles = StyleSheet.create({
   visibleBadge: { marginLeft: 4 },
   visibleTime: { marginLeft: 6 },
   authorChip: { marginLeft: 6, borderRadius: 9, backgroundColor: colors.chip, paddingHorizontal: 7, height: 18, justifyContent: 'center' },
-  authorChipText: { fontSize: 11, color: colors.chipInk, fontFamily: 'ThreadsBody' },
+  authorChipText: { fontSize: 11.5, fontWeight: '500' as const, color: colors.chipInk, fontFamily: 'ThreadsBody' },
   actionKey: { flexDirection: 'row', alignItems: 'center' },
   actionCount: { fontSize: type.body, color: colors.ink, marginLeft: 6, fontFamily: 'ThreadsBody' },
   nav: { position: 'absolute', left: 0, top: 728, width: frame.width, height: 44, backgroundColor: colors.navPlate },
