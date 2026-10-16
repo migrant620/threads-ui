@@ -86,7 +86,15 @@ export const colors = {
      because a 1 dp rule inside a 29 dp cell leaves the median colour untouched. */
   hairlineStrong: '#D9D9D9',
   border: '#D4D4D4',
-  field: '#F4F4F4',
+  /* R31: T10 login — the two credential fields are outlined in a cooler, lighter plate edge than
+     the generic `border`; the reference raster measures the outline at (223,226,229). */
+  fieldBorder: '#DFE2E5',
+  /* R31: T10 login — the enabled "Log in" label sits on the IG-blue pill in a near-white, not pure
+     white; the reference raster measures the run at (242,244,246). */
+  loginInk: '#F2F4F6',
+  /* R31: T10 login — "Forgot password?" is a near-black, not pure black; the reference raster
+     measures the run at (17,17,18). */
+  forgotInk: '#111112',
   disabled: '#E8E8E8',
   onDark: '#FFFFFF',
   verified: '#0094F4',

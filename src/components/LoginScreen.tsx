@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     height: 60,
     borderRadius: 10.5,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: colors.fieldBorder,
     backgroundColor: colors.surface,
   },
   fieldPlate2: {
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     height: 60,
     borderRadius: 10.5,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: colors.fieldBorder,
     backgroundColor: colors.surface,
   },
   userBox: { position: 'absolute', left: 32, top: 328.6, width: 292.9, height: 19.6 },
@@ -201,10 +201,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  loginRun: { fontSize: type.body, lineHeight: 21.1, fontWeight: weight.soft, color: colors.onDark, fontFamily: 'ThreadsBody' },
+  loginRun: { fontSize: type.body, lineHeight: 21.1, fontWeight: weight.soft, color: colors.loginInk, fontFamily: 'ThreadsBody' },
 
   forgotKey: { position: 'absolute', left: 118.6, top: 501.4, width: 155.7, height: 36, alignItems: 'center', justifyContent: 'center' },
-  forgotRun: { fontSize: 14.6, lineHeight: 25.1, fontWeight: weight.medium, color: colors.ink, fontFamily: 'ThreadsBody' },
+  forgotRun: { fontSize: 14.6, lineHeight: 25.1, fontWeight: weight.medium, color: colors.forgotInk, fontFamily: 'ThreadsBody' },
 
   metaKey: { position: 'absolute', left: 166.7, top: 748.2, width: 60, height: 12, alignItems: 'center', justifyContent: 'center' },
 
