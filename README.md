@@ -87,7 +87,7 @@ The static output is written to `dist/`. Serve that directory over HTTP or HTTPS
 
 ## Demo build
 
-The published demo at <https://threads-ui.edgeone.cool> is built from this repository. It was last rebuilt and redeployed on 2026-10-15 (EdgeOne deployment `dp884msbgsy6`, source revision `013e6e35`).
+The published demo at <https://threads-ui.edgeone.cool> is built from this repository. It was last rebuilt and redeployed on 2026-10-16 (EdgeOne deployment `dpthm6fql2kf`, source revision `97a77ce6`).
 
 ## Scope and limitations
 
